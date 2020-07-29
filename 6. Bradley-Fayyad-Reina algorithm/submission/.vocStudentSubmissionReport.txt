@@ -1,0 +1,150 @@
+
+[Executed at: Tue Jun 30 18:55:09 PDT 2020]
+
+========== Case 1 ==========
+Case 1, Normalized_mutual_info_score: 0.9999597654848388.
+========== Case 2 ==========
+Case 2, Normalized_mutual_info_score: 1.0.
+
+2020-06-30 18:51:41 WARN  Utils:66 - Your hostname, ip-172-31-27-132 resolves to a loopback address: 127.0.0.1; using 172.31.27.132 instead (on interface ens5)
+2020-06-30 18:51:41 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2020-06-30 18:51:41 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 2:=============================>                             (1 + 1) / 2]                                                                                [Stage 4:>                                                          (0 + 2) / 2]                                                                                [Stage 11:>                                                         (0 + 2) / 2]                                                                                [Stage 18:>                                                         (0 + 2) / 2][Stage 18:=============================>                            (1 + 1) / 2]                                                                                [Stage 25:>                                                         (0 + 2) / 2][Stage 25:=============================>                            (1 + 1) / 2]                                                                                [Stage 32:>                                                         (0 + 2) / 2]                                                                                [Stage 39:>                                                         (0 + 2) / 2][Stage 39:=============================>                            (1 + 1) / 2]                                                                                [Stage 46:>                                                         (0 + 2) / 2]                                                                                [Stage 53:>                                                         (0 + 2) / 2]                                                                                [Stage 60:>                                                         (0 + 2) / 2]                                                                                [Stage 67:>                                                         (0 + 2) / 2]                                                                                [Stage 74:>                                                         (0 + 2) / 2]                                                                                [Stage 76:>                                                         (0 + 2) / 2]                                                                                [Stage 77:>                                                         (0 + 1) / 1]                                                                                [Stage 78:=============================>                            (1 + 1) / 2]                                                                                [Stage 96:>                                                         (0 + 2) / 2]                                                                                [Stage 97:>                                                         (0 + 2) / 2]                                                                                [Stage 98:>                                                         (0 + 2) / 2]                                                                                [Stage 100:>                                                        (0 + 2) / 2][Stage 100:============================>                            (1 + 1) / 2]                                                                                [Stage 101:>                                                        (0 + 2) / 2]                                                                                [Stage 102:>                                                        (0 + 2) / 2]                                                                                [Stage 104:>                                                        (0 + 2) / 2]                                                                                [Stage 105:>                                                        (0 + 2) / 2]                                                                                [Stage 106:>                                                        (0 + 2) / 2]                                                                                [Stage 108:>                                                        (0 + 2) / 2]                                                                                [Stage 109:>                                                        (0 + 2) / 2]                                                                                [Stage 110:>                                                        (0 + 2) / 2]                                                                                [Stage 112:>                                                        (0 + 2) / 2][Stage 112:============================>                            (1 + 1) / 2]                                                                                [Stage 113:>                                                        (0 + 2) / 2]                                                                                [Stage 114:>                                                        (0 + 2) / 2]                                                                                [Stage 116:>                                                        (0 + 2) / 2]                                                                                [Stage 123:>                                                        (0 + 2) / 2]                                                                                [Stage 130:>                                                        (0 + 2) / 2]                                                                                [Stage 132:>                                                        (0 + 2) / 2][Stage 132:============================>                            (1 + 1) / 2]                                                                                [Stage 134:>                                                        (0 + 2) / 2]                                                                                [Stage 135:>                                                        (0 + 2) / 2]                                                                                [Stage 142:>                                                        (0 + 2) / 2]                                                                                [Stage 150:>                                                        (0 + 2) / 2]                                                                                [Stage 158:>                                                        (0 + 2) / 2]                                                                                [Stage 166:>                                                        (0 + 2) / 2]                                                                                10
+30
+138.33519511985725
+30
+31.996131260418753
+30
+19.317826037352482
+30
+12.73594753067775
+30
+8.864481603590008
+30
+6.855410520003922
+30
+5.437023045954284
+30
+4.374005635874931
+30
+3.6566939290589118
+30
+3.1992500549867264
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+10
+144.32083867649942
+10
+0.0
+DS dist:  [(0, 15275), (2, 16044), (4, 13636), (8, 20100), (6, 10402), (1, 10174), (3, 18286), (5, 11029), (9, 11285), (7, 11692)]
+here
+[[10, 137923, 0, 0, 0]]
+0.0
+137919 0 0 4
+0.0
+137921 0 0 6
+0.0
+137922 0 0 7
+0.0
+137923 0 0 9
+689617
+Duration:  108.74061441421509
+/usr/local/lib/python3.6/site-packages/sklearn/metrics/cluster/supervised.py:859: FutureWarning: The behavior of NMI will change in version 0.22. To match the behavior of 'v_measure_score', NMI will use average_method='arithmetic' by default.
+  FutureWarning)
+2020-06-30 18:53:32 WARN  Utils:66 - Your hostname, ip-172-31-27-132 resolves to a loopback address: 127.0.0.1; using 172.31.27.132 instead (on interface ens5)
+2020-06-30 18:53:32 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2020-06-30 18:53:33 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 4:>                                                          (0 + 2) / 2]                                                                                [Stage 11:>                                                         (0 + 2) / 2][Stage 11:=============================>                            (1 + 1) / 2]                                                                                [Stage 20:>                                                         (0 + 2) / 2]                                                                                [Stage 27:>                                                         (0 + 2) / 2]                                                                                [Stage 34:>                                                         (0 + 2) / 2]                                                                                [Stage 41:>                                                         (0 + 2) / 2]                                                                                [Stage 48:>                                                         (0 + 2) / 2][Stage 48:=============================>                            (1 + 1) / 2]                                                                                [Stage 55:>                                                         (0 + 2) / 2]                                                                                [Stage 62:>                                                         (0 + 2) / 2]                                                                                [Stage 69:>                                                         (0 + 2) / 2]                                                                                [Stage 76:>                                                         (0 + 2) / 2]                                                                                [Stage 83:>                                                         (0 + 2) / 2][Stage 83:=============================>                            (1 + 1) / 2]                                                                                [Stage 90:>                                                         (0 + 2) / 2]                                                                                [Stage 92:>                                                         (0 + 2) / 2]                                                                                [Stage 93:>                                                         (0 + 1) / 1]                                                                                [Stage 94:=============================>                            (1 + 1) / 2]                                                                                [Stage 125:>                                                        (0 + 2) / 2]                                                                                [Stage 128:>                                                        (0 + 2) / 2]                                                                                [Stage 129:>                                                        (0 + 2) / 2]                                                                                [Stage 130:>                                                        (0 + 2) / 2]                                                                                [Stage 132:>                                                        (0 + 2) / 2]                                                                                [Stage 139:>                                                        (0 + 2) / 2]                                                                                [Stage 146:>                                                        (0 + 2) / 2]                                                                                [Stage 148:>                                                        (0 + 2) / 2]                                                                                [Stage 150:>                                                        (0 + 2) / 2]                                                                                [Stage 151:>                                                        (0 + 1) / 1]                                                                                [Stage 152:============================>                            (1 + 1) / 2]                                                                                [Stage 183:>                                                        (0 + 2) / 2]                                                                                [Stage 186:>                                                        (0 + 2) / 2]                                                                                [Stage 187:>                                                        (0 + 2) / 2]                                                                                [Stage 188:>                                                        (0 + 2) / 2]                                                                                [Stage 190:>                                                        (0 + 2) / 2]                                                                                [Stage 197:>                                                        (0 + 2) / 2]                                                                                [Stage 204:>                                                        (0 + 2) / 2]                                                                                [Stage 206:>                                                        (0 + 2) / 2]                                                                                [Stage 208:>                                                        (0 + 2) / 2]                                                                                [Stage 209:>                                                        (0 + 2) / 2]                                                                                [Stage 260:>                                                        (0 + 2) / 2][Stage 260:============================>                            (1 + 1) / 2]                                                                                [Stage 268:>                                                        (0 + 2) / 2]                                                                                [Stage 276:>                                                        (0 + 2) / 2]                                                                                [Stage 284:>                                                        (0 + 2) / 2]                                                                                [Stage 292:>                                                        (0 + 2) / 2]                                                                                [Stage 300:>                                                        (0 + 2) / 2]                                                                                [Stage 308:>                                                        (0 + 2) / 2]                                                                                [Stage 316:>                                                        (0 + 2) / 2][Stage 316:============================>                            (1 + 1) / 2]                                                                                [Stage 324:>                                                        (0 + 2) / 2]                                                                                50
+30
+1533.5296758679074
+29
+30
+1319.1719883953936
+30
+107602.24709717152
+30
+25263.489221406384
+30
+23.391185735412
+30
+17.115729381138856
+30
+13.890850973197812
+30
+11.04501262072458
+30
+9.425580556147718
+30
+7.782348707601575
+30
+6.858493050386701
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+10
+518.7835317600362
+10
+0.0
+DS dist:  [(0, 7021), (4, 2954), (8, 3027), (6, 2619), (2, 1), (5, 2363), (7, 1393), (9, 1933), (3, 1), (1, 1)]
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+10
+274.7053006107749
+10
+0.0
+DS dist:  [(2, 2363), (6, 3027), (4, 2619), (8, 1744), (0, 1933), (9, 2605), (1, 2954), (3, 1393), (7, 1311), (5, 1361)]
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+find initial ......
+8
+0.0
+here
+[[10, 21310, 0, 0, 8]]
+85341.0909489395
+0.0
+21312 4 8 6
+87389.53293945335
+0.0
+21307 8 11 6
+62961.1712681885
+0.0
+21306 11 11 7
+0.0
+21309 11 7 9
+21304 11 14 9
+21310 11 8 9
+21305 11 13 9
+21310 11 8 9
+21312 11 10 9
+213184
+Duration:  94.03246212005615
+/usr/local/lib/python3.6/site-packages/sklearn/metrics/cluster/supervised.py:859: FutureWarning: The behavior of NMI will change in version 0.22. To match the behavior of 'v_measure_score', NMI will use average_method='arithmetic' by default.
+  FutureWarning)

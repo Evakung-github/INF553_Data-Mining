@@ -1,0 +1,1649 @@
+
+[Executed at: Mon Jun 8 18:12:44 PDT 2020]
+
+==================================================
+Task 1.1 (python) runtime (ms), 5076
+Task 1.1, score: 3,  out of 3
+==================================================
+Task 1.2 (python) runtime (ms), 4868
+Task 1.2, score: 3,  out of 3
+==================================================
+
+2020-06-08 18:12:31 WARN  Utils:66 - Your hostname, ip-172-31-24-161 resolves to a loopback address: 127.0.0.1; using 172.31.24.161 instead (on interface ens5)
+2020-06-08 18:12:31 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2020-06-08 18:12:31 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-06-08 18:12:32 INFO  SparkContext:54 - Running Spark version 2.3.0
+2020-06-08 18:12:32 INFO  SparkContext:54 - Submitted application: hw
+2020-06-08 18:12:32 INFO  SecurityManager:54 - Changing view acls to: ccc_v1_g_328d8_37658
+2020-06-08 18:12:32 INFO  SecurityManager:54 - Changing modify acls to: ccc_v1_g_328d8_37658
+2020-06-08 18:12:32 INFO  SecurityManager:54 - Changing view acls groups to: 
+2020-06-08 18:12:32 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2020-06-08 18:12:32 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_328d8_37658); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_328d8_37658); groups with modify permissions: Set()
+2020-06-08 18:12:32 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 37589.
+2020-06-08 18:12:32 INFO  SparkEnv:54 - Registering MapOutputTracker
+2020-06-08 18:12:32 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2020-06-08 18:12:32 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2020-06-08 18:12:32 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2020-06-08 18:12:32 INFO  DiskBlockManager:54 - Created local directory at /tmp/blockmgr-343e4c29-4946-4dc1-820f-f2942a3af060
+2020-06-08 18:12:32 INFO  MemoryStore:54 - MemoryStore started with capacity 366.3 MB
+2020-06-08 18:12:32 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2020-06-08 18:12:32 INFO  log:192 - Logging initialized @1725ms
+2020-06-08 18:12:32 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2020-06-08 18:12:32 INFO  Server:414 - Started @1791ms
+2020-06-08 18:12:32 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-06-08 18:12:32 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2020-06-08 18:12:32 INFO  AbstractConnector:278 - Started ServerConnector@58a8877c{HTTP/1.1,[http/1.1]}{0.0.0.0:4042}
+2020-06-08 18:12:32 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4042.
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5c94403d{/jobs,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5d2f35c5{/jobs/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6fcd8c0d{/jobs/job,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@57f40a7a{/jobs/job/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@73d18c5c{/stages,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@70ffcbcf{/stages/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f082d31{/stages/stage,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@193b91d5{/stages/stage/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@47845666{/stages/pool,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6d6d4e25{/stages/pool/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5e40948a{/storage,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1b3013ae{/storage/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7ee251c8{/storage/rdd,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@79792457{/storage/rdd/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@23c71b36{/environment,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3871c183{/environment/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5471ab54{/executors,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@641a7611{/executors/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7f9fdf0f{/executors/threadDump,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@49d474a6{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@10a65dc3{/static,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@209db322{/,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@691d8e66{/api,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@73a31cf{/jobs/job/kill,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@113f7ccd{/stages/stage/kill,null,AVAILABLE,@Spark}
+2020-06-08 18:12:32 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://172.31.24.161:4042
+2020-06-08 18:12:33 INFO  SparkContext:54 - Added file file:/home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py at file:/home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py with timestamp 1591665153171
+2020-06-08 18:12:33 INFO  Utils:54 - Copying /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py to /tmp/spark-d6bf5286-5cf6-4ee9-a18b-47500224d825/userFiles-c3b55270-e597-4f09-b651-fd529a66b676/task1.py
+2020-06-08 18:12:33 INFO  Executor:54 - Starting executor ID driver on host localhost
+2020-06-08 18:12:33 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 37829.
+2020-06-08 18:12:33 INFO  NettyBlockTransferService:54 - Server created on 172.31.24.161:37829
+2020-06-08 18:12:33 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2020-06-08 18:12:33 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, 172.31.24.161, 37829, None)
+2020-06-08 18:12:33 INFO  BlockManagerMasterEndpoint:54 - Registering block manager 172.31.24.161:37829 with 366.3 MB RAM, BlockManagerId(driver, 172.31.24.161, 37829, None)
+2020-06-08 18:12:33 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, 172.31.24.161, 37829, None)
+2020-06-08 18:12:33 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, 172.31.24.161, 37829, None)
+2020-06-08 18:12:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@29b351a0{/metrics/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:33 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 236.5 KB, free 366.1 MB)
+2020-06-08 18:12:33 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 22.9 KB, free 366.0 MB)
+2020-06-08 18:12:33 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on 172.31.24.161:37829 (size: 22.9 KB, free: 366.3 MB)
+2020-06-08 18:12:33 INFO  SparkContext:54 - Created broadcast 0 from textFile at NativeMethodAccessorImpl.java:0
+2020-06-08 18:12:33 INFO  FileInputFormat:249 - Total input paths to process : 1
+2020-06-08 18:12:33 INFO  SparkContext:54 - Starting job: sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62
+2020-06-08 18:12:33 INFO  DAGScheduler:54 - Registering RDD 3 (groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:61)
+2020-06-08 18:12:33 INFO  DAGScheduler:54 - Registering RDD 7 (distinct at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:61)
+2020-06-08 18:12:33 INFO  DAGScheduler:54 - Registering RDD 11 (groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62)
+2020-06-08 18:12:33 INFO  DAGScheduler:54 - Got job 0 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) with 2 output partitions
+2020-06-08 18:12:33 INFO  DAGScheduler:54 - Final stage: ResultStage 3 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62)
+2020-06-08 18:12:33 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 2)
+2020-06-08 18:12:33 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 2)
+2020-06-08 18:12:33 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 0 (PairwiseRDD[3] at groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:61), which has no missing parents
+2020-06-08 18:12:33 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 9.8 KB, free 366.0 MB)
+2020-06-08 18:12:33 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.4 KB, free 366.0 MB)
+2020-06-08 18:12:33 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on 172.31.24.161:37829 (size: 6.4 KB, free: 366.3 MB)
+2020-06-08 18:12:33 INFO  SparkContext:54 - Created broadcast 1 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:33 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 0 (PairwiseRDD[3] at groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:61) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:33 INFO  TaskSchedulerImpl:54 - Adding task set 0.0 with 2 tasks
+2020-06-08 18:12:34 INFO  TaskSetManager:54 - Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 7923 bytes)
+2020-06-08 18:12:34 INFO  TaskSetManager:54 - Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 7923 bytes)
+2020-06-08 18:12:34 INFO  Executor:54 - Running task 1.0 in stage 0.0 (TID 1)
+2020-06-08 18:12:34 INFO  Executor:54 - Running task 0.0 in stage 0.0 (TID 0)
+2020-06-08 18:12:34 INFO  Executor:54 - Fetching file:/home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py with timestamp 1591665153171
+2020-06-08 18:12:34 INFO  Utils:54 - /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py has been previously copied to /tmp/spark-d6bf5286-5cf6-4ee9-a18b-47500224d825/userFiles-c3b55270-e597-4f09-b651-fd529a66b676/task1.py
+2020-06-08 18:12:34 INFO  HadoopRDD:54 - Input split: file:/home/ccc_v1_c_b9Go_203599/asn197443_10/asn197444_1/asnlib.0/publicdata/small1.csv:0+269
+2020-06-08 18:12:34 INFO  HadoopRDD:54 - Input split: file:/home/ccc_v1_c_b9Go_203599/asn197443_10/asn197444_1/asnlib.0/publicdata/small1.csv:269+269
+2020-06-08 18:12:34 INFO  PythonRunner:54 - Times: total = 379, boot = 374, init = 4, finish = 1
+2020-06-08 18:12:34 INFO  PythonRunner:54 - Times: total = 378, boot = 370, init = 7, finish = 1
+2020-06-08 18:12:34 INFO  Executor:54 - Finished task 1.0 in stage 0.0 (TID 1). 1569 bytes result sent to driver
+2020-06-08 18:12:34 INFO  Executor:54 - Finished task 0.0 in stage 0.0 (TID 0). 1569 bytes result sent to driver
+2020-06-08 18:12:34 INFO  TaskSetManager:54 - Finished task 1.0 in stage 0.0 (TID 1) in 668 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:34 INFO  TaskSetManager:54 - Finished task 0.0 in stage 0.0 (TID 0) in 680 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:34 INFO  TaskSchedulerImpl:54 - Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - ShuffleMapStage 0 (groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:61) finished in 0.728 s
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - running: Set()
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - waiting: Set(ShuffleMapStage 1, ShuffleMapStage 2, ResultStage 3)
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - failed: Set()
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 1 (PairwiseRDD[7] at distinct at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:61), which has no missing parents
+2020-06-08 18:12:34 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 11.3 KB, free 366.0 MB)
+2020-06-08 18:12:34 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 7.5 KB, free 366.0 MB)
+2020-06-08 18:12:34 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on 172.31.24.161:37829 (size: 7.5 KB, free: 366.3 MB)
+2020-06-08 18:12:34 INFO  SparkContext:54 - Created broadcast 2 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 1 (PairwiseRDD[7] at distinct at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:61) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:34 INFO  TaskSchedulerImpl:54 - Adding task set 1.0 with 2 tasks
+2020-06-08 18:12:34 INFO  TaskSetManager:54 - Starting task 0.0 in stage 1.0 (TID 2, localhost, executor driver, partition 0, ANY, 7638 bytes)
+2020-06-08 18:12:34 INFO  TaskSetManager:54 - Starting task 1.0 in stage 1.0 (TID 3, localhost, executor driver, partition 1, ANY, 7638 bytes)
+2020-06-08 18:12:34 INFO  Executor:54 - Running task 0.0 in stage 1.0 (TID 2)
+2020-06-08 18:12:34 INFO  Executor:54 - Running task 1.0 in stage 1.0 (TID 3)
+2020-06-08 18:12:34 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:34 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:34 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 5 ms
+2020-06-08 18:12:34 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 5 ms
+2020-06-08 18:12:34 INFO  PythonRunner:54 - Times: total = 41, boot = -240, init = 279, finish = 2
+2020-06-08 18:12:34 INFO  PythonRunner:54 - Times: total = 42, boot = -244, init = 283, finish = 3
+2020-06-08 18:12:34 INFO  Executor:54 - Finished task 0.0 in stage 1.0 (TID 2). 1741 bytes result sent to driver
+2020-06-08 18:12:34 INFO  Executor:54 - Finished task 1.0 in stage 1.0 (TID 3). 1741 bytes result sent to driver
+2020-06-08 18:12:34 INFO  TaskSetManager:54 - Finished task 0.0 in stage 1.0 (TID 2) in 87 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:34 INFO  TaskSetManager:54 - Finished task 1.0 in stage 1.0 (TID 3) in 86 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:34 INFO  TaskSchedulerImpl:54 - Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - ShuffleMapStage 1 (distinct at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:61) finished in 0.099 s
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - running: Set()
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - waiting: Set(ShuffleMapStage 2, ResultStage 3)
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - failed: Set()
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 2 (PairwiseRDD[11] at groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62), which has no missing parents
+2020-06-08 18:12:34 INFO  MemoryStore:54 - Block broadcast_3 stored as values in memory (estimated size 8.9 KB, free 366.0 MB)
+2020-06-08 18:12:34 INFO  MemoryStore:54 - Block broadcast_3_piece0 stored as bytes in memory (estimated size 5.9 KB, free 366.0 MB)
+2020-06-08 18:12:34 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on 172.31.24.161:37829 (size: 5.9 KB, free: 366.3 MB)
+2020-06-08 18:12:34 INFO  SparkContext:54 - Created broadcast 3 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 2 (PairwiseRDD[11] at groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:34 INFO  TaskSchedulerImpl:54 - Adding task set 2.0 with 2 tasks
+2020-06-08 18:12:34 INFO  TaskSetManager:54 - Starting task 0.0 in stage 2.0 (TID 4, localhost, executor driver, partition 0, ANY, 7638 bytes)
+2020-06-08 18:12:34 INFO  TaskSetManager:54 - Starting task 1.0 in stage 2.0 (TID 5, localhost, executor driver, partition 1, ANY, 7638 bytes)
+2020-06-08 18:12:34 INFO  Executor:54 - Running task 1.0 in stage 2.0 (TID 5)
+2020-06-08 18:12:34 INFO  Executor:54 - Running task 0.0 in stage 2.0 (TID 4)
+2020-06-08 18:12:34 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:34 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:34 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:34 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 3 ms
+2020-06-08 18:12:34 INFO  PythonRunner:54 - Times: total = 42, boot = -41, init = 82, finish = 1
+2020-06-08 18:12:34 INFO  Executor:54 - Finished task 0.0 in stage 2.0 (TID 4). 1741 bytes result sent to driver
+2020-06-08 18:12:34 INFO  TaskSetManager:54 - Finished task 0.0 in stage 2.0 (TID 4) in 76 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:34 INFO  PythonRunner:54 - Times: total = 38, boot = -47, init = 84, finish = 1
+2020-06-08 18:12:34 INFO  Executor:54 - Finished task 1.0 in stage 2.0 (TID 5). 1741 bytes result sent to driver
+2020-06-08 18:12:34 INFO  TaskSetManager:54 - Finished task 1.0 in stage 2.0 (TID 5) in 93 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:34 INFO  TaskSchedulerImpl:54 - Removed TaskSet 2.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - ShuffleMapStage 2 (groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) finished in 0.101 s
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - running: Set()
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - waiting: Set(ResultStage 3)
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - failed: Set()
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - Submitting ResultStage 3 (PythonRDD[14] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62), which has no missing parents
+2020-06-08 18:12:34 INFO  MemoryStore:54 - Block broadcast_4 stored as values in memory (estimated size 8.5 KB, free 366.0 MB)
+2020-06-08 18:12:34 INFO  MemoryStore:54 - Block broadcast_4_piece0 stored as bytes in memory (estimated size 5.6 KB, free 366.0 MB)
+2020-06-08 18:12:34 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on 172.31.24.161:37829 (size: 5.6 KB, free: 366.3 MB)
+2020-06-08 18:12:34 INFO  SparkContext:54 - Created broadcast 4 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 3 (PythonRDD[14] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:34 INFO  TaskSchedulerImpl:54 - Adding task set 3.0 with 2 tasks
+2020-06-08 18:12:34 INFO  TaskSetManager:54 - Starting task 0.0 in stage 3.0 (TID 6, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2020-06-08 18:12:34 INFO  TaskSetManager:54 - Starting task 1.0 in stage 3.0 (TID 7, localhost, executor driver, partition 1, ANY, 7649 bytes)
+2020-06-08 18:12:34 INFO  Executor:54 - Running task 1.0 in stage 3.0 (TID 7)
+2020-06-08 18:12:34 INFO  Executor:54 - Running task 0.0 in stage 3.0 (TID 6)
+2020-06-08 18:12:34 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:34 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:34 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:34 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:34 INFO  PythonRunner:54 - Times: total = 41, boot = -45, init = 86, finish = 0
+2020-06-08 18:12:34 INFO  Executor:54 - Finished task 1.0 in stage 3.0 (TID 7). 1568 bytes result sent to driver
+2020-06-08 18:12:34 INFO  TaskSetManager:54 - Finished task 1.0 in stage 3.0 (TID 7) in 52 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:34 INFO  PythonRunner:54 - Times: total = 40, boot = -51, init = 91, finish = 0
+2020-06-08 18:12:34 INFO  Executor:54 - Finished task 0.0 in stage 3.0 (TID 6). 1568 bytes result sent to driver
+2020-06-08 18:12:34 INFO  TaskSetManager:54 - Finished task 0.0 in stage 3.0 (TID 6) in 57 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:34 INFO  TaskSchedulerImpl:54 - Removed TaskSet 3.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - ResultStage 3 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) finished in 0.070 s
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - Job 0 finished: sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62, took 1.053641 s
+2020-06-08 18:12:34 INFO  SparkContext:54 - Starting job: sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - Got job 1 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) with 2 output partitions
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - Final stage: ResultStage 7 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62)
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 6)
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - Missing parents: List()
+2020-06-08 18:12:34 INFO  DAGScheduler:54 - Submitting ResultStage 7 (PythonRDD[15] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62), which has no missing parents
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_5 stored as values in memory (estimated size 8.4 KB, free 366.0 MB)
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_5_piece0 stored as bytes in memory (estimated size 5.5 KB, free 366.0 MB)
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Added broadcast_5_piece0 in memory on 172.31.24.161:37829 (size: 5.5 KB, free: 366.2 MB)
+2020-06-08 18:12:35 INFO  SparkContext:54 - Created broadcast 5 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 7 (PythonRDD[15] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Adding task set 7.0 with 2 tasks
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 0.0 in stage 7.0 (TID 8, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 1.0 in stage 7.0 (TID 9, localhost, executor driver, partition 1, ANY, 7649 bytes)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 0.0 in stage 7.0 (TID 8)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 1.0 in stage 7.0 (TID 9)
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 38, boot = -38, init = 76, finish = 0
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 0.0 in stage 7.0 (TID 8). 2194 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 0.0 in stage 7.0 (TID 8) in 46 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 41, boot = -32, init = 73, finish = 0
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 1.0 in stage 7.0 (TID 9). 2125 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 1.0 in stage 7.0 (TID 9) in 49 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Removed TaskSet 7.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - ResultStage 7 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) finished in 0.055 s
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Job 1 finished: sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62, took 0.059011 s
+2020-06-08 18:12:35 INFO  SparkContext:54 - Starting job: collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Registering RDD 17 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Got job 2 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) with 2 output partitions
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Final stage: ResultStage 12 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 11)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 11)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 11 (PairwiseRDD[17] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62), which has no missing parents
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_6 stored as values in memory (estimated size 9.8 KB, free 366.0 MB)
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_6_piece0 stored as bytes in memory (estimated size 6.6 KB, free 366.0 MB)
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Added broadcast_6_piece0 in memory on 172.31.24.161:37829 (size: 6.6 KB, free: 366.2 MB)
+2020-06-08 18:12:35 INFO  SparkContext:54 - Created broadcast 6 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 11 (PairwiseRDD[17] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Adding task set 11.0 with 2 tasks
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 0.0 in stage 11.0 (TID 10, localhost, executor driver, partition 0, ANY, 7638 bytes)
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 1.0 in stage 11.0 (TID 11, localhost, executor driver, partition 1, ANY, 7638 bytes)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 1.0 in stage 11.0 (TID 11)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 0.0 in stage 11.0 (TID 10)
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 40, boot = -37, init = 77, finish = 0
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 41, boot = -40, init = 81, finish = 0
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 0.0 in stage 11.0 (TID 10). 1784 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 0.0 in stage 11.0 (TID 10) in 55 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 1.0 in stage 11.0 (TID 11). 1741 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 1.0 in stage 11.0 (TID 11) in 55 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Removed TaskSet 11.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - ShuffleMapStage 11 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) finished in 0.063 s
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - running: Set()
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - waiting: Set(ResultStage 12)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - failed: Set()
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting ResultStage 12 (PythonRDD[20] at collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62), which has no missing parents
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_7 stored as values in memory (estimated size 6.6 KB, free 365.9 MB)
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_7_piece0 stored as bytes in memory (estimated size 4.2 KB, free 365.9 MB)
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Added broadcast_7_piece0 in memory on 172.31.24.161:37829 (size: 4.2 KB, free: 366.2 MB)
+2020-06-08 18:12:35 INFO  SparkContext:54 - Created broadcast 7 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 12 (PythonRDD[20] at collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Adding task set 12.0 with 2 tasks
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 0.0 in stage 12.0 (TID 12, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 1.0 in stage 12.0 (TID 13, localhost, executor driver, partition 1, ANY, 7649 bytes)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 0.0 in stage 12.0 (TID 12)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 1.0 in stage 12.0 (TID 13)
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 48, boot = -17, init = 65, finish = 0
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 0.0 in stage 12.0 (TID 12). 2530 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 0.0 in stage 12.0 (TID 12) in 57 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 48, boot = -14, init = 62, finish = 0
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 1.0 in stage 12.0 (TID 13). 1870 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 1.0 in stage 12.0 (TID 13) in 64 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Removed TaskSet 12.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - ResultStage 12 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) finished in 0.071 s
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Job 2 finished: collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62, took 0.139563 s
+2020-06-08 18:12:35 INFO  SparkContext:54 - Starting job: collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:64
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Got job 3 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:64) with 2 output partitions
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Final stage: ResultStage 15 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:64)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 14)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Missing parents: List()
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting ResultStage 15 (PythonRDD[21] at collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:64), which has no missing parents
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_8 stored as values in memory (estimated size 6.6 KB, free 365.9 MB)
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_8_piece0 stored as bytes in memory (estimated size 4.2 KB, free 365.9 MB)
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Added broadcast_8_piece0 in memory on 172.31.24.161:37829 (size: 4.2 KB, free: 366.2 MB)
+2020-06-08 18:12:35 INFO  SparkContext:54 - Created broadcast 8 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 15 (PythonRDD[21] at collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:64) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Adding task set 15.0 with 2 tasks
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 0.0 in stage 15.0 (TID 14, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 1.0 in stage 15.0 (TID 15, localhost, executor driver, partition 1, ANY, 7649 bytes)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 0.0 in stage 15.0 (TID 14)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 1.0 in stage 15.0 (TID 15)
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 48, boot = -39, init = 87, finish = 0
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 44, boot = -42, init = 86, finish = 0
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 1.0 in stage 15.0 (TID 15). 2168 bytes result sent to driver
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 0.0 in stage 15.0 (TID 14). 2117 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 1.0 in stage 15.0 (TID 15) in 58 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 0.0 in stage 15.0 (TID 14) in 59 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Removed TaskSet 15.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - ResultStage 15 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:64) finished in 0.069 s
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Job 3 finished: collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:64, took 0.073362 s
+2020-06-08 18:12:35 INFO  SparkContext:54 - Starting job: sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Registering RDD 23 (groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Registering RDD 27 (reduceByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Registering RDD 31 (groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Got job 4 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) with 2 output partitions
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Final stage: ResultStage 19 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 18)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 18)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 16 (PairwiseRDD[23] at groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65), which has no missing parents
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_9 stored as values in memory (estimated size 9.8 KB, free 365.9 MB)
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_9_piece0 stored as bytes in memory (estimated size 6.4 KB, free 365.9 MB)
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Added broadcast_9_piece0 in memory on 172.31.24.161:37829 (size: 6.4 KB, free: 366.2 MB)
+2020-06-08 18:12:35 INFO  SparkContext:54 - Created broadcast 9 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 16 (PairwiseRDD[23] at groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Adding task set 16.0 with 2 tasks
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 0.0 in stage 16.0 (TID 16, localhost, executor driver, partition 0, PROCESS_LOCAL, 7923 bytes)
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 1.0 in stage 16.0 (TID 17, localhost, executor driver, partition 1, PROCESS_LOCAL, 7923 bytes)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 1.0 in stage 16.0 (TID 17)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 0.0 in stage 16.0 (TID 16)
+2020-06-08 18:12:35 INFO  HadoopRDD:54 - Input split: file:/home/ccc_v1_c_b9Go_203599/asn197443_10/asn197444_1/asnlib.0/publicdata/small1.csv:0+269
+2020-06-08 18:12:35 INFO  HadoopRDD:54 - Input split: file:/home/ccc_v1_c_b9Go_203599/asn197443_10/asn197444_1/asnlib.0/publicdata/small1.csv:269+269
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 41, boot = -77, init = 118, finish = 0
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 0.0 in stage 16.0 (TID 16). 1526 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 0.0 in stage 16.0 (TID 16) in 63 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 40, boot = -81, init = 121, finish = 0
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 1.0 in stage 16.0 (TID 17). 1526 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 1.0 in stage 16.0 (TID 17) in 77 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Removed TaskSet 16.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - ShuffleMapStage 16 (groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) finished in 0.085 s
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - running: Set()
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - waiting: Set(ResultStage 19, ShuffleMapStage 17, ShuffleMapStage 18)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - failed: Set()
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 17 (PairwiseRDD[27] at reduceByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65), which has no missing parents
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_10 stored as values in memory (estimated size 11.0 KB, free 365.9 MB)
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_10_piece0 stored as bytes in memory (estimated size 7.4 KB, free 365.9 MB)
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Added broadcast_10_piece0 in memory on 172.31.24.161:37829 (size: 7.4 KB, free: 366.2 MB)
+2020-06-08 18:12:35 INFO  SparkContext:54 - Created broadcast 10 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 17 (PairwiseRDD[27] at reduceByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Adding task set 17.0 with 2 tasks
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 0.0 in stage 17.0 (TID 18, localhost, executor driver, partition 0, ANY, 7638 bytes)
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 1.0 in stage 17.0 (TID 19, localhost, executor driver, partition 1, ANY, 7638 bytes)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 1.0 in stage 17.0 (TID 19)
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 0.0 in stage 17.0 (TID 18)
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 39, boot = -34, init = 71, finish = 2
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 1.0 in stage 17.0 (TID 19). 1741 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 1.0 in stage 17.0 (TID 19) in 55 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 43, boot = -47, init = 88, finish = 2
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 0.0 in stage 17.0 (TID 18). 1741 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 0.0 in stage 17.0 (TID 18) in 62 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Removed TaskSet 17.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - ShuffleMapStage 17 (reduceByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) finished in 0.071 s
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - running: Set()
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - waiting: Set(ResultStage 19, ShuffleMapStage 18)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - failed: Set()
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 18 (PairwiseRDD[31] at groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65), which has no missing parents
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_11 stored as values in memory (estimated size 9.1 KB, free 365.9 MB)
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_11_piece0 stored as bytes in memory (estimated size 6.1 KB, free 365.9 MB)
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Added broadcast_11_piece0 in memory on 172.31.24.161:37829 (size: 6.1 KB, free: 366.2 MB)
+2020-06-08 18:12:35 INFO  SparkContext:54 - Created broadcast 11 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 18 (PairwiseRDD[31] at groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Adding task set 18.0 with 2 tasks
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 0.0 in stage 18.0 (TID 20, localhost, executor driver, partition 0, ANY, 7638 bytes)
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 1.0 in stage 18.0 (TID 21, localhost, executor driver, partition 1, ANY, 7638 bytes)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 1.0 in stage 18.0 (TID 21)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 0.0 in stage 18.0 (TID 20)
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 42, boot = -22, init = 64, finish = 0
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 0.0 in stage 18.0 (TID 20). 1741 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 0.0 in stage 18.0 (TID 20) in 55 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 46, boot = -17, init = 63, finish = 0
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 1.0 in stage 18.0 (TID 21). 1741 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 1.0 in stage 18.0 (TID 21) in 58 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Removed TaskSet 18.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - ShuffleMapStage 18 (groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) finished in 0.067 s
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - running: Set()
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - waiting: Set(ResultStage 19)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - failed: Set()
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting ResultStage 19 (PythonRDD[34] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65), which has no missing parents
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_12 stored as values in memory (estimated size 8.5 KB, free 365.9 MB)
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_12_piece0 stored as bytes in memory (estimated size 5.6 KB, free 365.9 MB)
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Added broadcast_12_piece0 in memory on 172.31.24.161:37829 (size: 5.6 KB, free: 366.2 MB)
+2020-06-08 18:12:35 INFO  SparkContext:54 - Created broadcast 12 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 19 (PythonRDD[34] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Adding task set 19.0 with 2 tasks
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 0.0 in stage 19.0 (TID 22, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 1.0 in stage 19.0 (TID 23, localhost, executor driver, partition 1, ANY, 7649 bytes)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 1.0 in stage 19.0 (TID 23)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 0.0 in stage 19.0 (TID 22)
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 39, boot = -18, init = 57, finish = 0
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 38, boot = -15, init = 53, finish = 0
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 1.0 in stage 19.0 (TID 23). 1568 bytes result sent to driver
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 0.0 in stage 19.0 (TID 22). 1568 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 1.0 in stage 19.0 (TID 23) in 46 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 0.0 in stage 19.0 (TID 22) in 47 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Removed TaskSet 19.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - ResultStage 19 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) finished in 0.055 s
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Job 4 finished: sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65, took 0.289167 s
+2020-06-08 18:12:35 INFO  SparkContext:54 - Starting job: sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Got job 5 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) with 2 output partitions
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Final stage: ResultStage 23 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 22)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Missing parents: List()
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting ResultStage 23 (PythonRDD[35] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65), which has no missing parents
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_13 stored as values in memory (estimated size 8.4 KB, free 365.9 MB)
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_13_piece0 stored as bytes in memory (estimated size 5.5 KB, free 365.9 MB)
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 52
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Added broadcast_13_piece0 in memory on 172.31.24.161:37829 (size: 5.5 KB, free: 366.2 MB)
+2020-06-08 18:12:35 INFO  SparkContext:54 - Created broadcast 13 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 23 (PythonRDD[35] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Adding task set 23.0 with 2 tasks
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 0.0 in stage 23.0 (TID 24, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 1.0 in stage 23.0 (TID 25, localhost, executor driver, partition 1, ANY, 7649 bytes)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 0.0 in stage 23.0 (TID 24)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 1.0 in stage 23.0 (TID 25)
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Removed broadcast_11_piece0 on 172.31.24.161:37829 in memory (size: 6.1 KB, free: 366.2 MB)
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 277
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 279
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 16
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 246
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 218
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 238
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 268
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 35
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 223
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 107
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 252
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 183
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 144
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 269
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 290
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 231
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 7
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 158
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 297
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 59
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 90
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 145
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 150
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 43
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 74
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 203
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 113
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 149
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 192
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 260
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 5
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 13
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 108
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 94
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 213
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 289
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 98
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 222
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 249
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 142
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 122
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 175
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 124
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 6
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 243
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 201
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 257
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 258
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 40
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 48
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 29
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 164
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 42
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 245
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 121
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 133
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 283
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 170
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 110
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 30
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 200
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 295
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 119
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 134
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 165
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 212
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 234
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 45
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 300
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 228
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 27
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 235
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 292
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 138
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 143
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 152
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 9
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 271
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 39
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 93
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 278
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 286
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 4
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 230
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 174
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 204
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 3
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 54
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 34
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 298
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 25
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 274
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 77
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 132
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 187
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 202
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 166
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 66
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 225
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 92
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 151
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 220
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 102
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 1
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 73
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 53
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 10
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Removed broadcast_8_piece0 on 172.31.24.161:37829 in memory (size: 4.2 KB, free: 366.2 MB)
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 285
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 15
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 216
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 190
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 33
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 206
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 137
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 179
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 96
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 229
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 75
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 17
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 22
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 171
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 41
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 24
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 250
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 12
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 162
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 219
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Removed broadcast_4_piece0 on 172.31.24.161:37829 in memory (size: 5.6 KB, free: 366.2 MB)
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 105
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 104
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 189
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 254
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 61
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 153
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 103
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 84
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 76
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 72
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 287
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 130
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 169
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 221
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 68
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 109
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Removed broadcast_10_piece0 on 172.31.24.161:37829 in memory (size: 7.4 KB, free: 366.2 MB)
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 49
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 173
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 198
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 147
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 159
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 111
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 21
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 46
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 161
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece0 on 172.31.24.161:37829 in memory (size: 6.4 KB, free: 366.2 MB)
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 181
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 191
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 199
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 19
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 78
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 91
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 57
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 233
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 266
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 65
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 281
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 236
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 28
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 44
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 82
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 251
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 11
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 120
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 95
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 240
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 193
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 267
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 140
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 244
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 118
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 71
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 177
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 270
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 148
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 117
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 8
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 239
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 255
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 87
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 50
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 85
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 261
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 256
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 262
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 129
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 128
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 160
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 99
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 36
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 83
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 296
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 211
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 80
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 259
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 2
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 215
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Removed broadcast_2_piece0 on 172.31.24.161:37829 in memory (size: 7.5 KB, free: 366.2 MB)
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 97
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 184
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 185
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 32
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 64
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 210
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 123
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 136
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 272
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 63
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 284
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Removed broadcast_3_piece0 on 172.31.24.161:37829 in memory (size: 5.9 KB, free: 366.2 MB)
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 253
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 176
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 51
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 18
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 195
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 67
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 194
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 282
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 141
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Removed broadcast_7_piece0 on 172.31.24.161:37829 in memory (size: 4.2 KB, free: 366.2 MB)
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 101
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 180
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 197
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 188
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Removed broadcast_5_piece0 on 172.31.24.161:37829 in memory (size: 5.5 KB, free: 366.3 MB)
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 242
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 196
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 31
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 156
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 112
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 167
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 293
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 232
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned shuffle 3
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 131
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 273
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 127
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 205
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 227
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 89
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 79
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 276
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 186
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 139
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 70
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 154
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 263
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 126
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 55
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 135
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 100
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 37
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 14
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 265
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 88
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 207
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 224
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 23
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 275
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 163
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 58
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 116
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 280
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 214
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Removed broadcast_9_piece0 on 172.31.24.161:37829 in memory (size: 6.4 KB, free: 366.3 MB)
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 125
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 182
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 178
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 20
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 208
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 60
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 56
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 69
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Removed broadcast_6_piece0 on 172.31.24.161:37829 in memory (size: 6.6 KB, free: 366.3 MB)
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 288
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 106
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 146
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 86
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 114
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 38
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 47
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 209
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 26
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 62
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 217
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 299
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 157
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 294
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 172
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 247
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 264
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 241
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 237
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 248
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Removed broadcast_12_piece0 on 172.31.24.161:37829 in memory (size: 5.6 KB, free: 366.3 MB)
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 115
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 168
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 291
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 155
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 226
+2020-06-08 18:12:35 INFO  ContextCleaner:54 - Cleaned accumulator 81
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 38, boot = -38, init = 76, finish = 0
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 0.0 in stage 23.0 (TID 24). 1863 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 0.0 in stage 23.0 (TID 24) in 45 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 42, boot = -39, init = 81, finish = 0
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 1.0 in stage 23.0 (TID 25). 1819 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 1.0 in stage 23.0 (TID 25) in 49 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Removed TaskSet 23.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - ResultStage 23 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) finished in 0.070 s
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Job 5 finished: sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65, took 0.072733 s
+2020-06-08 18:12:35 INFO  SparkContext:54 - Starting job: collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Registering RDD 37 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Got job 6 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) with 2 output partitions
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Final stage: ResultStage 28 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 27)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 27)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 27 (PairwiseRDD[37] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65), which has no missing parents
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_14 stored as values in memory (estimated size 9.7 KB, free 366.0 MB)
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_14_piece0 stored as bytes in memory (estimated size 6.5 KB, free 366.0 MB)
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Added broadcast_14_piece0 in memory on 172.31.24.161:37829 (size: 6.5 KB, free: 366.3 MB)
+2020-06-08 18:12:35 INFO  SparkContext:54 - Created broadcast 14 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 27 (PairwiseRDD[37] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Adding task set 27.0 with 2 tasks
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 0.0 in stage 27.0 (TID 26, localhost, executor driver, partition 0, ANY, 7638 bytes)
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 1.0 in stage 27.0 (TID 27, localhost, executor driver, partition 1, ANY, 7638 bytes)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 0.0 in stage 27.0 (TID 26)
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 1.0 in stage 27.0 (TID 27)
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 43, boot = -36, init = 78, finish = 1
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 39, boot = -34, init = 72, finish = 1
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 0.0 in stage 27.0 (TID 26). 1741 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 0.0 in stage 27.0 (TID 26) in 52 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 1.0 in stage 27.0 (TID 27). 1698 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 1.0 in stage 27.0 (TID 27) in 52 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Removed TaskSet 27.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - ShuffleMapStage 27 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) finished in 0.058 s
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - running: Set()
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - waiting: Set(ResultStage 28)
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - failed: Set()
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting ResultStage 28 (PythonRDD[40] at collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65), which has no missing parents
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_15 stored as values in memory (estimated size 6.6 KB, free 366.0 MB)
+2020-06-08 18:12:35 INFO  MemoryStore:54 - Block broadcast_15_piece0 stored as bytes in memory (estimated size 4.2 KB, free 366.0 MB)
+2020-06-08 18:12:35 INFO  BlockManagerInfo:54 - Added broadcast_15_piece0 in memory on 172.31.24.161:37829 (size: 4.2 KB, free: 366.3 MB)
+2020-06-08 18:12:35 INFO  SparkContext:54 - Created broadcast 15 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 28 (PythonRDD[40] at collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Adding task set 28.0 with 2 tasks
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 0.0 in stage 28.0 (TID 28, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Starting task 1.0 in stage 28.0 (TID 29, localhost, executor driver, partition 1, ANY, 7649 bytes)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 0.0 in stage 28.0 (TID 28)
+2020-06-08 18:12:35 INFO  Executor:54 - Running task 1.0 in stage 28.0 (TID 29)
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:35 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 38, boot = -11, init = 49, finish = 0
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 0.0 in stage 28.0 (TID 28). 1978 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 0.0 in stage 28.0 (TID 28) in 46 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:35 INFO  PythonRunner:54 - Times: total = 42, boot = -6, init = 48, finish = 0
+2020-06-08 18:12:35 INFO  Executor:54 - Finished task 1.0 in stage 28.0 (TID 29). 1701 bytes result sent to driver
+2020-06-08 18:12:35 INFO  TaskSetManager:54 - Finished task 1.0 in stage 28.0 (TID 29) in 50 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:35 INFO  TaskSchedulerImpl:54 - Removed TaskSet 28.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - ResultStage 28 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) finished in 0.056 s
+2020-06-08 18:12:35 INFO  DAGScheduler:54 - Job 6 finished: collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65, took 0.119520 s
+Duration:  3.4681873321533203
+2020-06-08 18:12:35 INFO  SparkContext:54 - Invoking stop() from shutdown hook
+2020-06-08 18:12:35 INFO  AbstractConnector:318 - Stopped Spark@58a8877c{HTTP/1.1,[http/1.1]}{0.0.0.0:4042}
+2020-06-08 18:12:35 INFO  SparkUI:54 - Stopped Spark web UI at http://172.31.24.161:4042
+2020-06-08 18:12:35 INFO  MapOutputTrackerMasterEndpoint:54 - MapOutputTrackerMasterEndpoint stopped!
+2020-06-08 18:12:35 INFO  MemoryStore:54 - MemoryStore cleared
+2020-06-08 18:12:35 INFO  BlockManager:54 - BlockManager stopped
+2020-06-08 18:12:35 INFO  BlockManagerMaster:54 - BlockManagerMaster stopped
+2020-06-08 18:12:35 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 - OutputCommitCoordinator stopped!
+2020-06-08 18:12:35 INFO  SparkContext:54 - Successfully stopped SparkContext
+2020-06-08 18:12:35 INFO  ShutdownHookManager:54 - Shutdown hook called
+2020-06-08 18:12:35 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-d6bf5286-5cf6-4ee9-a18b-47500224d825/pyspark-597924e0-a8e4-49e4-820e-0ea86bf84780
+2020-06-08 18:12:35 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-80a05fd6-e40c-4385-a549-840c3d14b063
+2020-06-08 18:12:35 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-d6bf5286-5cf6-4ee9-a18b-47500224d825
+2020-06-08 18:12:36 WARN  Utils:66 - Your hostname, ip-172-31-24-161 resolves to a loopback address: 127.0.0.1; using 172.31.24.161 instead (on interface ens5)
+2020-06-08 18:12:36 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2020-06-08 18:12:37 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-06-08 18:12:37 INFO  SparkContext:54 - Running Spark version 2.3.0
+2020-06-08 18:12:37 INFO  SparkContext:54 - Submitted application: hw
+2020-06-08 18:12:37 INFO  SecurityManager:54 - Changing view acls to: ccc_v1_g_328d8_37658
+2020-06-08 18:12:37 INFO  SecurityManager:54 - Changing modify acls to: ccc_v1_g_328d8_37658
+2020-06-08 18:12:37 INFO  SecurityManager:54 - Changing view acls groups to: 
+2020-06-08 18:12:37 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2020-06-08 18:12:37 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_328d8_37658); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_328d8_37658); groups with modify permissions: Set()
+2020-06-08 18:12:37 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 38581.
+2020-06-08 18:12:37 INFO  SparkEnv:54 - Registering MapOutputTracker
+2020-06-08 18:12:37 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2020-06-08 18:12:37 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2020-06-08 18:12:37 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2020-06-08 18:12:37 INFO  DiskBlockManager:54 - Created local directory at /tmp/blockmgr-71fbfb36-b8bc-424d-92fe-bfd1c3d16f4c
+2020-06-08 18:12:37 INFO  MemoryStore:54 - MemoryStore started with capacity 366.3 MB
+2020-06-08 18:12:37 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2020-06-08 18:12:37 INFO  log:192 - Logging initialized @1720ms
+2020-06-08 18:12:37 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2020-06-08 18:12:37 INFO  Server:414 - Started @1784ms
+2020-06-08 18:12:37 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-06-08 18:12:37 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2020-06-08 18:12:37 INFO  AbstractConnector:278 - Started ServerConnector@4fdc2f30{HTTP/1.1,[http/1.1]}{0.0.0.0:4042}
+2020-06-08 18:12:37 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4042.
+2020-06-08 18:12:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4586a1f4{/jobs,null,AVAILABLE,@Spark}
+2020-06-08 18:12:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@268a4583{/jobs/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@774b96fd{/jobs/job,null,AVAILABLE,@Spark}
+2020-06-08 18:12:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5adc2ee4{/jobs/job/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2e8ece61{/stages,null,AVAILABLE,@Spark}
+2020-06-08 18:12:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5d94933{/stages/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@26fc64d5{/stages/stage,null,AVAILABLE,@Spark}
+2020-06-08 18:12:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@a16a4b1{/stages/stage/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4f89a3ea{/stages/pool,null,AVAILABLE,@Spark}
+2020-06-08 18:12:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@34b1ac2e{/stages/pool/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3e1d21ff{/storage,null,AVAILABLE,@Spark}
+2020-06-08 18:12:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@11129a1{/storage/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3055c9a{/storage/rdd,null,AVAILABLE,@Spark}
+2020-06-08 18:12:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3a6c5008{/storage/rdd/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6d298c63{/environment,null,AVAILABLE,@Spark}
+2020-06-08 18:12:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@657dec46{/environment/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4cb59dff{/executors,null,AVAILABLE,@Spark}
+2020-06-08 18:12:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@14817871{/executors/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@356aa416{/executors/threadDump,null,AVAILABLE,@Spark}
+2020-06-08 18:12:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3f7f7121{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5f455954{/static,null,AVAILABLE,@Spark}
+2020-06-08 18:12:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6c9610a1{/,null,AVAILABLE,@Spark}
+2020-06-08 18:12:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1bc660d5{/api,null,AVAILABLE,@Spark}
+2020-06-08 18:12:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@128789a0{/jobs/job/kill,null,AVAILABLE,@Spark}
+2020-06-08 18:12:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@69427cc8{/stages/stage/kill,null,AVAILABLE,@Spark}
+2020-06-08 18:12:38 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://172.31.24.161:4042
+2020-06-08 18:12:38 INFO  SparkContext:54 - Added file file:/home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py at file:/home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py with timestamp 1591665158174
+2020-06-08 18:12:38 INFO  Utils:54 - Copying /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py to /tmp/spark-6f171b53-7fba-49e6-be10-ae4941871f3d/userFiles-60302a47-50f7-4fc9-8fbb-4f95f883eb83/task1.py
+2020-06-08 18:12:38 INFO  Executor:54 - Starting executor ID driver on host localhost
+2020-06-08 18:12:38 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 37399.
+2020-06-08 18:12:38 INFO  NettyBlockTransferService:54 - Server created on 172.31.24.161:37399
+2020-06-08 18:12:38 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2020-06-08 18:12:38 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, 172.31.24.161, 37399, None)
+2020-06-08 18:12:38 INFO  BlockManagerMasterEndpoint:54 - Registering block manager 172.31.24.161:37399 with 366.3 MB RAM, BlockManagerId(driver, 172.31.24.161, 37399, None)
+2020-06-08 18:12:38 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, 172.31.24.161, 37399, None)
+2020-06-08 18:12:38 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, 172.31.24.161, 37399, None)
+2020-06-08 18:12:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1280c2a2{/metrics/json,null,AVAILABLE,@Spark}
+2020-06-08 18:12:38 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 236.5 KB, free 366.1 MB)
+2020-06-08 18:12:38 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 22.9 KB, free 366.0 MB)
+2020-06-08 18:12:38 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on 172.31.24.161:37399 (size: 22.9 KB, free: 366.3 MB)
+2020-06-08 18:12:38 INFO  SparkContext:54 - Created broadcast 0 from textFile at NativeMethodAccessorImpl.java:0
+2020-06-08 18:12:38 INFO  FileInputFormat:249 - Total input paths to process : 1
+2020-06-08 18:12:38 INFO  SparkContext:54 - Starting job: sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62
+2020-06-08 18:12:38 INFO  DAGScheduler:54 - Registering RDD 3 (groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:61)
+2020-06-08 18:12:38 INFO  DAGScheduler:54 - Registering RDD 7 (distinct at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:61)
+2020-06-08 18:12:38 INFO  DAGScheduler:54 - Registering RDD 11 (groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62)
+2020-06-08 18:12:38 INFO  DAGScheduler:54 - Got job 0 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) with 2 output partitions
+2020-06-08 18:12:38 INFO  DAGScheduler:54 - Final stage: ResultStage 3 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62)
+2020-06-08 18:12:38 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 2)
+2020-06-08 18:12:38 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 2)
+2020-06-08 18:12:38 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 0 (PairwiseRDD[3] at groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:61), which has no missing parents
+2020-06-08 18:12:38 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 9.8 KB, free 366.0 MB)
+2020-06-08 18:12:39 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.4 KB, free 366.0 MB)
+2020-06-08 18:12:39 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on 172.31.24.161:37399 (size: 6.4 KB, free: 366.3 MB)
+2020-06-08 18:12:39 INFO  SparkContext:54 - Created broadcast 1 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 0 (PairwiseRDD[3] at groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:61) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:39 INFO  TaskSchedulerImpl:54 - Adding task set 0.0 with 2 tasks
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 7923 bytes)
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 7923 bytes)
+2020-06-08 18:12:39 INFO  Executor:54 - Running task 1.0 in stage 0.0 (TID 1)
+2020-06-08 18:12:39 INFO  Executor:54 - Running task 0.0 in stage 0.0 (TID 0)
+2020-06-08 18:12:39 INFO  Executor:54 - Fetching file:/home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py with timestamp 1591665158174
+2020-06-08 18:12:39 INFO  Utils:54 - /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py has been previously copied to /tmp/spark-6f171b53-7fba-49e6-be10-ae4941871f3d/userFiles-60302a47-50f7-4fc9-8fbb-4f95f883eb83/task1.py
+2020-06-08 18:12:39 INFO  HadoopRDD:54 - Input split: file:/home/ccc_v1_c_b9Go_203599/asn197443_10/asn197444_1/asnlib.0/publicdata/small1.csv:0+269
+2020-06-08 18:12:39 INFO  HadoopRDD:54 - Input split: file:/home/ccc_v1_c_b9Go_203599/asn197443_10/asn197444_1/asnlib.0/publicdata/small1.csv:269+269
+2020-06-08 18:12:39 INFO  PythonRunner:54 - Times: total = 376, boot = 372, init = 3, finish = 1
+2020-06-08 18:12:39 INFO  PythonRunner:54 - Times: total = 376, boot = 369, init = 6, finish = 1
+2020-06-08 18:12:39 INFO  Executor:54 - Finished task 0.0 in stage 0.0 (TID 0). 1526 bytes result sent to driver
+2020-06-08 18:12:39 INFO  Executor:54 - Finished task 1.0 in stage 0.0 (TID 1). 1526 bytes result sent to driver
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Finished task 0.0 in stage 0.0 (TID 0) in 643 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Finished task 1.0 in stage 0.0 (TID 1) in 633 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:39 INFO  TaskSchedulerImpl:54 - Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - ShuffleMapStage 0 (groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:61) finished in 0.696 s
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - running: Set()
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - waiting: Set(ShuffleMapStage 1, ShuffleMapStage 2, ResultStage 3)
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - failed: Set()
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 1 (PairwiseRDD[7] at distinct at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:61), which has no missing parents
+2020-06-08 18:12:39 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 11.3 KB, free 366.0 MB)
+2020-06-08 18:12:39 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 7.5 KB, free 366.0 MB)
+2020-06-08 18:12:39 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on 172.31.24.161:37399 (size: 7.5 KB, free: 366.3 MB)
+2020-06-08 18:12:39 INFO  SparkContext:54 - Created broadcast 2 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 1 (PairwiseRDD[7] at distinct at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:61) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:39 INFO  TaskSchedulerImpl:54 - Adding task set 1.0 with 2 tasks
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Starting task 0.0 in stage 1.0 (TID 2, localhost, executor driver, partition 0, ANY, 7638 bytes)
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Starting task 1.0 in stage 1.0 (TID 3, localhost, executor driver, partition 1, ANY, 7638 bytes)
+2020-06-08 18:12:39 INFO  Executor:54 - Running task 1.0 in stage 1.0 (TID 3)
+2020-06-08 18:12:39 INFO  Executor:54 - Running task 0.0 in stage 1.0 (TID 2)
+2020-06-08 18:12:39 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:39 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:39 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 3 ms
+2020-06-08 18:12:39 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 3 ms
+2020-06-08 18:12:39 INFO  PythonRunner:54 - Times: total = 45, boot = -191, init = 235, finish = 1
+2020-06-08 18:12:39 INFO  Executor:54 - Finished task 1.0 in stage 1.0 (TID 3). 1612 bytes result sent to driver
+2020-06-08 18:12:39 INFO  PythonRunner:54 - Times: total = 40, boot = -192, init = 231, finish = 1
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Finished task 1.0 in stage 1.0 (TID 3) in 72 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:39 INFO  Executor:54 - Finished task 0.0 in stage 1.0 (TID 2). 1741 bytes result sent to driver
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Finished task 0.0 in stage 1.0 (TID 2) in 76 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:39 INFO  TaskSchedulerImpl:54 - Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - ShuffleMapStage 1 (distinct at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:61) finished in 0.084 s
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - running: Set()
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - waiting: Set(ShuffleMapStage 2, ResultStage 3)
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - failed: Set()
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 2 (PairwiseRDD[11] at groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62), which has no missing parents
+2020-06-08 18:12:39 INFO  MemoryStore:54 - Block broadcast_3 stored as values in memory (estimated size 8.9 KB, free 366.0 MB)
+2020-06-08 18:12:39 INFO  MemoryStore:54 - Block broadcast_3_piece0 stored as bytes in memory (estimated size 5.9 KB, free 366.0 MB)
+2020-06-08 18:12:39 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on 172.31.24.161:37399 (size: 5.9 KB, free: 366.3 MB)
+2020-06-08 18:12:39 INFO  SparkContext:54 - Created broadcast 3 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 2 (PairwiseRDD[11] at groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:39 INFO  TaskSchedulerImpl:54 - Adding task set 2.0 with 2 tasks
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Starting task 0.0 in stage 2.0 (TID 4, localhost, executor driver, partition 0, ANY, 7638 bytes)
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Starting task 1.0 in stage 2.0 (TID 5, localhost, executor driver, partition 1, ANY, 7638 bytes)
+2020-06-08 18:12:39 INFO  Executor:54 - Running task 0.0 in stage 2.0 (TID 4)
+2020-06-08 18:12:39 INFO  Executor:54 - Running task 1.0 in stage 2.0 (TID 5)
+2020-06-08 18:12:39 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2020-06-08 18:12:39 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2020-06-08 18:12:39 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2020-06-08 18:12:39 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2020-06-08 18:12:39 INFO  PythonRunner:54 - Times: total = 37, boot = -23, init = 60, finish = 0
+2020-06-08 18:12:39 INFO  Executor:54 - Finished task 1.0 in stage 2.0 (TID 5). 1741 bytes result sent to driver
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Finished task 1.0 in stage 2.0 (TID 5) in 60 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:39 INFO  PythonRunner:54 - Times: total = 45, boot = -26, init = 71, finish = 0
+2020-06-08 18:12:39 INFO  Executor:54 - Finished task 0.0 in stage 2.0 (TID 4). 1741 bytes result sent to driver
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Finished task 0.0 in stage 2.0 (TID 4) in 64 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:39 INFO  TaskSchedulerImpl:54 - Removed TaskSet 2.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - ShuffleMapStage 2 (groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) finished in 0.070 s
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - running: Set()
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - waiting: Set(ResultStage 3)
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - failed: Set()
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - Submitting ResultStage 3 (PythonRDD[14] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62), which has no missing parents
+2020-06-08 18:12:39 INFO  MemoryStore:54 - Block broadcast_4 stored as values in memory (estimated size 8.5 KB, free 366.0 MB)
+2020-06-08 18:12:39 INFO  MemoryStore:54 - Block broadcast_4_piece0 stored as bytes in memory (estimated size 5.6 KB, free 366.0 MB)
+2020-06-08 18:12:39 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on 172.31.24.161:37399 (size: 5.6 KB, free: 366.3 MB)
+2020-06-08 18:12:39 INFO  SparkContext:54 - Created broadcast 4 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 3 (PythonRDD[14] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:39 INFO  TaskSchedulerImpl:54 - Adding task set 3.0 with 2 tasks
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Starting task 0.0 in stage 3.0 (TID 6, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Starting task 1.0 in stage 3.0 (TID 7, localhost, executor driver, partition 1, ANY, 7649 bytes)
+2020-06-08 18:12:39 INFO  Executor:54 - Running task 0.0 in stage 3.0 (TID 6)
+2020-06-08 18:12:39 INFO  Executor:54 - Running task 1.0 in stage 3.0 (TID 7)
+2020-06-08 18:12:39 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:39 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2020-06-08 18:12:39 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:39 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2020-06-08 18:12:39 INFO  PythonRunner:54 - Times: total = 40, boot = -23, init = 63, finish = 0
+2020-06-08 18:12:39 INFO  PythonRunner:54 - Times: total = 39, boot = -19, init = 58, finish = 0
+2020-06-08 18:12:39 INFO  Executor:54 - Finished task 1.0 in stage 3.0 (TID 7). 1611 bytes result sent to driver
+2020-06-08 18:12:39 INFO  Executor:54 - Finished task 0.0 in stage 3.0 (TID 6). 1568 bytes result sent to driver
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Finished task 1.0 in stage 3.0 (TID 7) in 50 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Finished task 0.0 in stage 3.0 (TID 6) in 52 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:39 INFO  TaskSchedulerImpl:54 - Removed TaskSet 3.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - ResultStage 3 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) finished in 0.059 s
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - Job 0 finished: sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62, took 0.965213 s
+2020-06-08 18:12:39 INFO  SparkContext:54 - Starting job: sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - Got job 1 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) with 2 output partitions
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - Final stage: ResultStage 7 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62)
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 6)
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - Missing parents: List()
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - Submitting ResultStage 7 (PythonRDD[15] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62), which has no missing parents
+2020-06-08 18:12:39 INFO  MemoryStore:54 - Block broadcast_5 stored as values in memory (estimated size 8.4 KB, free 366.0 MB)
+2020-06-08 18:12:39 INFO  MemoryStore:54 - Block broadcast_5_piece0 stored as bytes in memory (estimated size 5.5 KB, free 366.0 MB)
+2020-06-08 18:12:39 INFO  BlockManagerInfo:54 - Added broadcast_5_piece0 in memory on 172.31.24.161:37399 (size: 5.5 KB, free: 366.2 MB)
+2020-06-08 18:12:39 INFO  SparkContext:54 - Created broadcast 5 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 7 (PythonRDD[15] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:39 INFO  TaskSchedulerImpl:54 - Adding task set 7.0 with 2 tasks
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Starting task 0.0 in stage 7.0 (TID 8, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Starting task 1.0 in stage 7.0 (TID 9, localhost, executor driver, partition 1, ANY, 7649 bytes)
+2020-06-08 18:12:39 INFO  Executor:54 - Running task 0.0 in stage 7.0 (TID 8)
+2020-06-08 18:12:39 INFO  Executor:54 - Running task 1.0 in stage 7.0 (TID 9)
+2020-06-08 18:12:39 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:39 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:39 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2020-06-08 18:12:39 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:39 INFO  PythonRunner:54 - Times: total = 37, boot = -37, init = 74, finish = 0
+2020-06-08 18:12:39 INFO  Executor:54 - Finished task 1.0 in stage 7.0 (TID 9). 1600 bytes result sent to driver
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Finished task 1.0 in stage 7.0 (TID 9) in 46 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:39 INFO  PythonRunner:54 - Times: total = 41, boot = -33, init = 74, finish = 0
+2020-06-08 18:12:39 INFO  Executor:54 - Finished task 0.0 in stage 7.0 (TID 8). 1596 bytes result sent to driver
+2020-06-08 18:12:39 INFO  TaskSetManager:54 - Finished task 0.0 in stage 7.0 (TID 8) in 50 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:39 INFO  TaskSchedulerImpl:54 - Removed TaskSet 7.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - ResultStage 7 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) finished in 0.056 s
+2020-06-08 18:12:39 INFO  DAGScheduler:54 - Job 1 finished: sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62, took 0.060459 s
+2020-06-08 18:12:40 INFO  SparkContext:54 - Starting job: collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Registering RDD 17 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Got job 2 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) with 2 output partitions
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Final stage: ResultStage 12 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 11)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 11)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 11 (PairwiseRDD[17] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62), which has no missing parents
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_6 stored as values in memory (estimated size 9.3 KB, free 366.0 MB)
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_6_piece0 stored as bytes in memory (estimated size 6.2 KB, free 366.0 MB)
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Added broadcast_6_piece0 in memory on 172.31.24.161:37399 (size: 6.2 KB, free: 366.2 MB)
+2020-06-08 18:12:40 INFO  SparkContext:54 - Created broadcast 6 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 11 (PairwiseRDD[17] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Adding task set 11.0 with 2 tasks
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 0.0 in stage 11.0 (TID 10, localhost, executor driver, partition 0, ANY, 7638 bytes)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 1.0 in stage 11.0 (TID 11, localhost, executor driver, partition 1, ANY, 7638 bytes)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 0.0 in stage 11.0 (TID 10)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 1.0 in stage 11.0 (TID 11)
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 37, boot = -32, init = 69, finish = 0
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 37, boot = -37, init = 74, finish = 0
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 1.0 in stage 11.0 (TID 11). 1741 bytes result sent to driver
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 0.0 in stage 11.0 (TID 10). 1741 bytes result sent to driver
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 1.0 in stage 11.0 (TID 11) in 50 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 0.0 in stage 11.0 (TID 10) in 51 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Removed TaskSet 11.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - ShuffleMapStage 11 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) finished in 0.056 s
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - running: Set()
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - waiting: Set(ResultStage 12)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - failed: Set()
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting ResultStage 12 (PythonRDD[20] at collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62), which has no missing parents
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_7 stored as values in memory (estimated size 6.6 KB, free 365.9 MB)
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_7_piece0 stored as bytes in memory (estimated size 4.2 KB, free 365.9 MB)
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Added broadcast_7_piece0 in memory on 172.31.24.161:37399 (size: 4.2 KB, free: 366.2 MB)
+2020-06-08 18:12:40 INFO  SparkContext:54 - Created broadcast 7 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 12 (PythonRDD[20] at collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Adding task set 12.0 with 2 tasks
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 1.0 in stage 12.0 (TID 12, localhost, executor driver, partition 1, PROCESS_LOCAL, 7649 bytes)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 0.0 in stage 12.0 (TID 13, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 1.0 in stage 12.0 (TID 12)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 0.0 in stage 12.0 (TID 13)
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 0 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 37, boot = -17, init = 54, finish = 0
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 37, boot = -17, init = 54, finish = 0
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 1.0 in stage 12.0 (TID 12). 1536 bytes result sent to driver
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 0.0 in stage 12.0 (TID 13). 1647 bytes result sent to driver
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 0.0 in stage 12.0 (TID 13) in 46 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 1.0 in stage 12.0 (TID 12) in 46 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Removed TaskSet 12.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - ResultStage 12 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62) finished in 0.054 s
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Job 2 finished: collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:62, took 0.115557 s
+2020-06-08 18:12:40 INFO  SparkContext:54 - Starting job: collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:64
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Got job 3 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:64) with 2 output partitions
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Final stage: ResultStage 15 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:64)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 14)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Missing parents: List()
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting ResultStage 15 (PythonRDD[21] at collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:64), which has no missing parents
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_8 stored as values in memory (estimated size 6.6 KB, free 365.9 MB)
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_8_piece0 stored as bytes in memory (estimated size 4.2 KB, free 365.9 MB)
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Added broadcast_8_piece0 in memory on 172.31.24.161:37399 (size: 4.2 KB, free: 366.2 MB)
+2020-06-08 18:12:40 INFO  SparkContext:54 - Created broadcast 8 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 15 (PythonRDD[21] at collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:64) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Adding task set 15.0 with 2 tasks
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 0.0 in stage 15.0 (TID 14, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 1.0 in stage 15.0 (TID 15, localhost, executor driver, partition 1, ANY, 7649 bytes)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 1.0 in stage 15.0 (TID 15)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 0.0 in stage 15.0 (TID 14)
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 37, boot = -26, init = 63, finish = 0
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 38, boot = -26, init = 64, finish = 0
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 1.0 in stage 15.0 (TID 15). 1573 bytes result sent to driver
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 0.0 in stage 15.0 (TID 14). 1578 bytes result sent to driver
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 1.0 in stage 15.0 (TID 15) in 47 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 0.0 in stage 15.0 (TID 14) in 48 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Removed TaskSet 15.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - ResultStage 15 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:64) finished in 0.056 s
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Job 3 finished: collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:64, took 0.058693 s
+2020-06-08 18:12:40 INFO  SparkContext:54 - Starting job: sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Registering RDD 23 (groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Registering RDD 27 (reduceByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Registering RDD 31 (groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Got job 4 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) with 2 output partitions
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Final stage: ResultStage 19 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 18)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 18)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 16 (PairwiseRDD[23] at groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65), which has no missing parents
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_9 stored as values in memory (estimated size 9.8 KB, free 365.9 MB)
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_9_piece0 stored as bytes in memory (estimated size 6.4 KB, free 365.9 MB)
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Added broadcast_9_piece0 in memory on 172.31.24.161:37399 (size: 6.4 KB, free: 366.2 MB)
+2020-06-08 18:12:40 INFO  SparkContext:54 - Created broadcast 9 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 16 (PairwiseRDD[23] at groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Adding task set 16.0 with 2 tasks
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 0.0 in stage 16.0 (TID 16, localhost, executor driver, partition 0, PROCESS_LOCAL, 7923 bytes)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 1.0 in stage 16.0 (TID 17, localhost, executor driver, partition 1, PROCESS_LOCAL, 7923 bytes)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 1.0 in stage 16.0 (TID 17)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 0.0 in stage 16.0 (TID 16)
+2020-06-08 18:12:40 INFO  HadoopRDD:54 - Input split: file:/home/ccc_v1_c_b9Go_203599/asn197443_10/asn197444_1/asnlib.0/publicdata/small1.csv:269+269
+2020-06-08 18:12:40 INFO  HadoopRDD:54 - Input split: file:/home/ccc_v1_c_b9Go_203599/asn197443_10/asn197444_1/asnlib.0/publicdata/small1.csv:0+269
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 39, boot = -60, init = 99, finish = 0
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 41, boot = -63, init = 103, finish = 1
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 0.0 in stage 16.0 (TID 16). 1526 bytes result sent to driver
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 1.0 in stage 16.0 (TID 17). 1526 bytes result sent to driver
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 1.0 in stage 16.0 (TID 17) in 56 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 0.0 in stage 16.0 (TID 16) in 56 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Removed TaskSet 16.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - ShuffleMapStage 16 (groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) finished in 0.065 s
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - running: Set()
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - waiting: Set(ResultStage 19, ShuffleMapStage 17, ShuffleMapStage 18)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - failed: Set()
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 17 (PairwiseRDD[27] at reduceByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65), which has no missing parents
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_10 stored as values in memory (estimated size 9.7 KB, free 365.9 MB)
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_10_piece0 stored as bytes in memory (estimated size 6.5 KB, free 365.9 MB)
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Added broadcast_10_piece0 in memory on 172.31.24.161:37399 (size: 6.5 KB, free: 366.2 MB)
+2020-06-08 18:12:40 INFO  SparkContext:54 - Created broadcast 10 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 17 (PairwiseRDD[27] at reduceByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Adding task set 17.0 with 2 tasks
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 0.0 in stage 17.0 (TID 18, localhost, executor driver, partition 0, ANY, 7638 bytes)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 1.0 in stage 17.0 (TID 19, localhost, executor driver, partition 1, ANY, 7638 bytes)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 0.0 in stage 17.0 (TID 18)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 1.0 in stage 17.0 (TID 19)
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 40, boot = -21, init = 61, finish = 0
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 39, boot = -24, init = 63, finish = 0
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 1.0 in stage 17.0 (TID 19). 1784 bytes result sent to driver
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 0.0 in stage 17.0 (TID 18). 1741 bytes result sent to driver
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 1.0 in stage 17.0 (TID 19) in 55 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 0.0 in stage 17.0 (TID 18) in 57 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Removed TaskSet 17.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - ShuffleMapStage 17 (reduceByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) finished in 0.065 s
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - running: Set()
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - waiting: Set(ResultStage 19, ShuffleMapStage 18)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - failed: Set()
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 18 (PairwiseRDD[31] at groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65), which has no missing parents
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_11 stored as values in memory (estimated size 9.1 KB, free 365.9 MB)
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_11_piece0 stored as bytes in memory (estimated size 6.1 KB, free 365.9 MB)
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Added broadcast_11_piece0 in memory on 172.31.24.161:37399 (size: 6.1 KB, free: 366.2 MB)
+2020-06-08 18:12:40 INFO  SparkContext:54 - Created broadcast 11 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 18 (PairwiseRDD[31] at groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Adding task set 18.0 with 2 tasks
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 0.0 in stage 18.0 (TID 20, localhost, executor driver, partition 0, ANY, 7638 bytes)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 1.0 in stage 18.0 (TID 21, localhost, executor driver, partition 1, ANY, 7638 bytes)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 0.0 in stage 18.0 (TID 20)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 1.0 in stage 18.0 (TID 21)
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 38, boot = -17, init = 55, finish = 0
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 1.0 in stage 18.0 (TID 21). 1655 bytes result sent to driver
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 1.0 in stage 18.0 (TID 21) in 48 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 39, boot = -17, init = 56, finish = 0
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 0.0 in stage 18.0 (TID 20). 1698 bytes result sent to driver
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 0.0 in stage 18.0 (TID 20) in 51 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Removed TaskSet 18.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - ShuffleMapStage 18 (groupByKey at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) finished in 0.058 s
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - running: Set()
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - waiting: Set(ResultStage 19)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - failed: Set()
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting ResultStage 19 (PythonRDD[34] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65), which has no missing parents
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_12 stored as values in memory (estimated size 8.5 KB, free 365.9 MB)
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_12_piece0 stored as bytes in memory (estimated size 5.6 KB, free 365.9 MB)
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Added broadcast_12_piece0 in memory on 172.31.24.161:37399 (size: 5.6 KB, free: 366.2 MB)
+2020-06-08 18:12:40 INFO  SparkContext:54 - Created broadcast 12 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 19 (PythonRDD[34] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Adding task set 19.0 with 2 tasks
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 0.0 in stage 19.0 (TID 22, localhost, executor driver, partition 0, PROCESS_LOCAL, 7649 bytes)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 1.0 in stage 19.0 (TID 23, localhost, executor driver, partition 1, ANY, 7649 bytes)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 0.0 in stage 19.0 (TID 22)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 1.0 in stage 19.0 (TID 23)
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 0 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 40, boot = -11, init = 51, finish = 0
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 0.0 in stage 19.0 (TID 22). 1568 bytes result sent to driver
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 0.0 in stage 19.0 (TID 22) in 48 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 40, boot = -15, init = 55, finish = 0
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 1.0 in stage 19.0 (TID 23). 1568 bytes result sent to driver
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 1.0 in stage 19.0 (TID 23) in 51 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Removed TaskSet 19.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - ResultStage 19 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) finished in 0.058 s
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Job 4 finished: sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65, took 0.255988 s
+2020-06-08 18:12:40 INFO  SparkContext:54 - Starting job: sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Got job 5 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) with 2 output partitions
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Final stage: ResultStage 23 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 22)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Missing parents: List()
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting ResultStage 23 (PythonRDD[35] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65), which has no missing parents
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_13 stored as values in memory (estimated size 8.4 KB, free 365.9 MB)
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_13_piece0 stored as bytes in memory (estimated size 5.5 KB, free 365.9 MB)
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Added broadcast_13_piece0 in memory on 172.31.24.161:37399 (size: 5.5 KB, free: 366.2 MB)
+2020-06-08 18:12:40 INFO  SparkContext:54 - Created broadcast 13 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 23 (PythonRDD[35] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Adding task set 23.0 with 2 tasks
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 0.0 in stage 23.0 (TID 24, localhost, executor driver, partition 0, PROCESS_LOCAL, 7649 bytes)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 1.0 in stage 23.0 (TID 25, localhost, executor driver, partition 1, ANY, 7649 bytes)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 0.0 in stage 23.0 (TID 24)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 1.0 in stage 23.0 (TID 25)
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 0 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 102
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 18
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 50
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 293
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 93
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 54
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 179
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 65
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 214
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 256
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 82
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 150
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 163
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 177
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned shuffle 3
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 117
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 76
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 26
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 103
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 64
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 297
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 67
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 95
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 10
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 176
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 288
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 296
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 133
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 4
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 168
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 12
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 188
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 183
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 251
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 227
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 267
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 158
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 44
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 131
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 197
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 245
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 137
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 232
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 35
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 149
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 289
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 119
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 58
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 241
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 90
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 144
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 120
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 182
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece0 on 172.31.24.161:37399 in memory (size: 6.4 KB, free: 366.2 MB)
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 69
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 272
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 282
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 37
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 174
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Removed broadcast_11_piece0 on 172.31.24.161:37399 in memory (size: 6.1 KB, free: 366.2 MB)
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 22
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 49
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 264
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 121
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Removed broadcast_9_piece0 on 172.31.24.161:37399 in memory (size: 6.4 KB, free: 366.2 MB)
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 139
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 116
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 204
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 200
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 7
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 178
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 21
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 125
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 77
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 94
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 141
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 136
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 60
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 187
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 39
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 114
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 92
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 75
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 268
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 229
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 28
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 96
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 11
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 275
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 278
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 224
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 152
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 271
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 263
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 212
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 68
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 132
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 205
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 162
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 274
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 219
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 254
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 8
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 89
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 145
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 216
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 283
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 226
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 105
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 109
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 240
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 252
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 14
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 55
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 62
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 19
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 287
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 299
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 199
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 160
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 112
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 249
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 3
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 84
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 269
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 72
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 13
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 167
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 192
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 80
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 196
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 181
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 91
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 220
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 242
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 195
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 173
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 211
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 210
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 295
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 201
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 266
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 66
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 110
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 143
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 284
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 290
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 286
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 113
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 155
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 101
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 172
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 243
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Removed broadcast_6_piece0 on 172.31.24.161:37399 in memory (size: 6.2 KB, free: 366.2 MB)
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 236
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 157
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 16
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 185
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 31
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 43
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 142
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 153
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 106
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 41
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 231
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 161
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 42
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 100
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 123
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 218
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 17
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 51
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 285
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 88
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 40
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 124
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 244
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 61
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 171
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 276
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Removed broadcast_3_piece0 on 172.31.24.161:37399 in memory (size: 5.9 KB, free: 366.2 MB)
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 30
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 38
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 79
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 87
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Removed broadcast_7_piece0 on 172.31.24.161:37399 in memory (size: 4.2 KB, free: 366.2 MB)
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 134
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 193
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 213
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 20
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 225
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 292
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 208
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 154
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 147
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 239
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 189
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 86
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 215
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 165
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 175
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 273
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 262
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 294
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 36
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 207
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 260
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 202
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 81
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 156
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 151
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 247
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 97
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 46
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 194
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 235
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 186
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 118
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 126
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 52
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 248
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 258
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 23
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 146
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 2
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 138
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 170
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 265
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 300
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Removed broadcast_4_piece0 on 172.31.24.161:37399 in memory (size: 5.6 KB, free: 366.2 MB)
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 280
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 47
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 279
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 246
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 74
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 259
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 108
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 255
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Removed broadcast_2_piece0 on 172.31.24.161:37399 in memory (size: 7.5 KB, free: 366.3 MB)
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 203
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 122
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 83
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 129
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 233
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 57
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 6
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Removed broadcast_12_piece0 on 172.31.24.161:37399 in memory (size: 5.6 KB, free: 366.3 MB)
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 184
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 230
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 1
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 223
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 159
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 135
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 206
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 59
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 53
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 277
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 24
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 63
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 34
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 253
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 148
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 257
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 221
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 250
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 104
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 128
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 27
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 237
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 222
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 15
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 180
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 45
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 209
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 291
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 228
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 130
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 71
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 234
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 98
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 107
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 270
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 169
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 127
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 78
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 29
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 164
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 33
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 261
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 5
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 25
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 99
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 190
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 111
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 85
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Removed broadcast_5_piece0 on 172.31.24.161:37399 in memory (size: 5.5 KB, free: 366.3 MB)
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Removed broadcast_8_piece0 on 172.31.24.161:37399 in memory (size: 4.2 KB, free: 366.3 MB)
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 217
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 191
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 56
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 70
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Removed broadcast_10_piece0 on 172.31.24.161:37399 in memory (size: 6.5 KB, free: 366.3 MB)
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 44, boot = -40, init = 84, finish = 0
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 44, boot = -45, init = 89, finish = 0
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 1.0 in stage 23.0 (TID 25). 1630 bytes result sent to driver
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 0.0 in stage 23.0 (TID 24). 1579 bytes result sent to driver
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 0.0 in stage 23.0 (TID 24) in 66 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 1.0 in stage 23.0 (TID 25) in 66 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Removed TaskSet 23.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 32
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 298
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 238
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 48
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 9
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 140
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 166
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 115
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 281
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 73
+2020-06-08 18:12:40 INFO  ContextCleaner:54 - Cleaned accumulator 198
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - ResultStage 23 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) finished in 0.075 s
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Job 5 finished: sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65, took 0.077859 s
+2020-06-08 18:12:40 INFO  SparkContext:54 - Starting job: collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Registering RDD 37 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Got job 6 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) with 2 output partitions
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Final stage: ResultStage 28 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 27)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 27)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 27 (PairwiseRDD[37] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65), which has no missing parents
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_14 stored as values in memory (estimated size 9.3 KB, free 366.0 MB)
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_14_piece0 stored as bytes in memory (estimated size 6.2 KB, free 366.0 MB)
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Added broadcast_14_piece0 in memory on 172.31.24.161:37399 (size: 6.2 KB, free: 366.3 MB)
+2020-06-08 18:12:40 INFO  SparkContext:54 - Created broadcast 14 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 27 (PairwiseRDD[37] at sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Adding task set 27.0 with 2 tasks
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 0.0 in stage 27.0 (TID 26, localhost, executor driver, partition 0, PROCESS_LOCAL, 7638 bytes)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 1.0 in stage 27.0 (TID 27, localhost, executor driver, partition 1, ANY, 7638 bytes)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 0.0 in stage 27.0 (TID 26)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 1.0 in stage 27.0 (TID 27)
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 0 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 40, boot = -33, init = 73, finish = 0
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 40, boot = -34, init = 74, finish = 0
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 0.0 in stage 27.0 (TID 26). 1612 bytes result sent to driver
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 1.0 in stage 27.0 (TID 27). 1741 bytes result sent to driver
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 0.0 in stage 27.0 (TID 26) in 51 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 1.0 in stage 27.0 (TID 27) in 51 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Removed TaskSet 27.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - ShuffleMapStage 27 (sortBy at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) finished in 0.057 s
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - running: Set()
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - waiting: Set(ResultStage 28)
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - failed: Set()
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting ResultStage 28 (PythonRDD[40] at collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65), which has no missing parents
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_15 stored as values in memory (estimated size 6.6 KB, free 366.0 MB)
+2020-06-08 18:12:40 INFO  MemoryStore:54 - Block broadcast_15_piece0 stored as bytes in memory (estimated size 4.2 KB, free 366.0 MB)
+2020-06-08 18:12:40 INFO  BlockManagerInfo:54 - Added broadcast_15_piece0 in memory on 172.31.24.161:37399 (size: 4.2 KB, free: 366.3 MB)
+2020-06-08 18:12:40 INFO  SparkContext:54 - Created broadcast 15 from broadcast at DAGScheduler.scala:1039
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 28 (PythonRDD[40] at collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) (first 15 tasks are for partitions Vector(0, 1))
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Adding task set 28.0 with 2 tasks
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 1.0 in stage 28.0 (TID 28, localhost, executor driver, partition 1, PROCESS_LOCAL, 7649 bytes)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Starting task 0.0 in stage 28.0 (TID 29, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 1.0 in stage 28.0 (TID 28)
+2020-06-08 18:12:40 INFO  Executor:54 - Running task 0.0 in stage 28.0 (TID 29)
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 0 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 40, boot = -8, init = 48, finish = 0
+2020-06-08 18:12:40 INFO  PythonRunner:54 - Times: total = 40, boot = -9, init = 49, finish = 0
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 0.0 in stage 28.0 (TID 29). 1587 bytes result sent to driver
+2020-06-08 18:12:40 INFO  Executor:54 - Finished task 1.0 in stage 28.0 (TID 28). 1536 bytes result sent to driver
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 0.0 in stage 28.0 (TID 29) in 48 ms on localhost (executor driver) (1/2)
+2020-06-08 18:12:40 INFO  TaskSetManager:54 - Finished task 1.0 in stage 28.0 (TID 28) in 50 ms on localhost (executor driver) (2/2)
+2020-06-08 18:12:40 INFO  TaskSchedulerImpl:54 - Removed TaskSet 28.0, whose tasks have all completed, from pool 
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - ResultStage 28 (collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65) finished in 0.056 s
+2020-06-08 18:12:40 INFO  DAGScheduler:54 - Job 6 finished: collect at /home/ccc_v1_g_328d8_37658/asn197443_10/asn197444_1/791500/20/work/task1.py:65, took 0.117662 s
+Duration:  3.2653870582580566
+2020-06-08 18:12:40 INFO  SparkContext:54 - Invoking stop() from shutdown hook
+2020-06-08 18:12:40 INFO  AbstractConnector:318 - Stopped Spark@4fdc2f30{HTTP/1.1,[http/1.1]}{0.0.0.0:4042}
+2020-06-08 18:12:40 INFO  SparkUI:54 - Stopped Spark web UI at http://172.31.24.161:4042
+2020-06-08 18:12:40 INFO  MapOutputTrackerMasterEndpoint:54 - MapOutputTrackerMasterEndpoint stopped!
+2020-06-08 18:12:40 INFO  MemoryStore:54 - MemoryStore cleared
+2020-06-08 18:12:40 INFO  BlockManager:54 - BlockManager stopped
+2020-06-08 18:12:40 INFO  BlockManagerMaster:54 - BlockManagerMaster stopped
+2020-06-08 18:12:40 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 - OutputCommitCoordinator stopped!
+2020-06-08 18:12:40 INFO  SparkContext:54 - Successfully stopped SparkContext
+2020-06-08 18:12:40 INFO  ShutdownHookManager:54 - Shutdown hook called
+2020-06-08 18:12:40 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-6f171b53-7fba-49e6-be10-ae4941871f3d/pyspark-c6715f32-7f59-40c6-880b-ecfeb1acbfa3
+2020-06-08 18:12:40 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-6f171b53-7fba-49e6-be10-ae4941871f3d
+2020-06-08 18:12:40 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-70b8480f-f4f1-4f24-b230-9ffd511665dd

@@ -1,0 +1,72 @@
+
+[Executed at: Thu Jun 11 0:49:18 PDT 2020]
+
+========================= Task 1 Python =========================
+Task 1 (python) runtime (ms), 205014
+========================= Task 2 Python =========================
+Attempt, 0
+Task 2 (python) without spark runtime (ms), 82064
+Task 2 (python) with spark runtime (ms), 45225
+Attempt, 1
+Task 2 (python) without spark runtime (ms), 60643
+Task 2 (python) with spark runtime (ms), 21474
+Attempt, 2
+Task 2 (python) without spark runtime (ms), 26331
+Task 2 (python) with spark runtime (ms), 33953
+Attempt, 3
+Task 2 (python) without spark runtime (ms), 23859
+Task 2 (python) with spark runtime (ms), 34756
+Attempt, 4
+Task 2 (python) without spark runtime (ms), 27715
+Task 2 (python) with spark runtime (ms), 29058
+========================= Task 3 Python =========================
+Attempt, 0
+Task 3 (python) default runtime (ms), 14454
+Task 3 (python) customized runtime (ms), 15344
+Attempt, 1
+Task 3 (python) default runtime (ms), 21191
+Task 3 (python) customized runtime (ms), 21273
+Attempt, 2
+Task 3 (python) default runtime (ms), 14673
+Task 3 (python) customized runtime (ms), 22000
+Attempt, 3
+Task 3 (python) default runtime (ms), 21663
+Task 3 (python) customized runtime (ms), 28828
+Attempt, 4
+Task 3 (python) default runtime (ms), 30109
+Task 3 (python) customized runtime (ms), 26087
+========================= Task 1 Scala =========================
+Task 1 (scala) runtime (ms), 132871
+========================= Task 2 Scala =========================
+Attempt, 0
+Task 2 (scala) without spark runtime (ms), 54988
+Task 2 (scala) with spark runtime (ms), 20160
+Attempt, 1
+Task 2 (scala) without spark runtime (ms), 69705
+Task 2 (scala) with spark runtime (ms), 34089
+Attempt, 2
+Task 2 (scala) without spark runtime (ms), 71900
+Task 2 (scala) with spark runtime (ms), 24829
+Attempt, 3
+Task 2 (scala) without spark runtime (ms), 34524
+Task 2 (scala) with spark runtime (ms), 15291
+Attempt, 4
+Task 2 (scala) without spark runtime (ms), 30012
+Task 2 (scala) with spark runtime (ms), 11384
+========================= Task 3 Scala =========================
+Attempt, 0
+Task 3 (scala) default runtime (ms), 17479
+Task 3 (scala) customized runtime (ms), 25506
+Attempt, 1
+Task 3 (scala) default runtime (ms), 28408
+Task 3 (scala) customized runtime (ms), 24204
+Attempt, 2
+Task 3 (scala) default runtime (ms), 27548
+Task 3 (scala) customized runtime (ms), 27379
+Attempt, 3
+Task 3 (scala) default runtime (ms), 24914
+Task 3 (scala) customized runtime (ms), 22168
+Attempt, 4
+Task 3 (scala) default runtime (ms), 19344
+Task 3 (scala) customized runtime (ms), 19206
+

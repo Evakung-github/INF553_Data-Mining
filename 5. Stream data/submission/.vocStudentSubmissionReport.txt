@@ -1,0 +1,658 @@
+
+[Executed at: Wed Jul 1 15:11:59 PDT 2020]
+
+==================================================
+Task 1 (python) runtime (ms), 13269
+Task 1: 4.5 out of 4.5
+==================================================
+Task 2: 4.5 out of 4.5
+==================================================
+Task 3: 3.5 out of 3.5
+==================================================
+Task 1 Scala:
+==================================================
+task2.scala not found
+Task 2 Scala:  0.0
+==================================================
+task3.scala not found
+Task 3 Scala:  0.0
+==================================================
+
+2020-07-01 15:01:36 WARN  Utils:66 - Your hostname, ip-172-31-22-189 resolves to a loopback address: 127.0.0.1; using 172.31.22.189 instead (on interface ens5)
+2020-07-01 15:01:36 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2020-07-01 15:01:36 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-07-01 15:01:37 INFO  SparkContext:54 - Running Spark version 2.3.0
+2020-07-01 15:01:37 INFO  SparkContext:54 - Submitted application: task1.py
+2020-07-01 15:01:37 INFO  SecurityManager:54 - Changing view acls to: ccc_v1_g_328d8_37658
+2020-07-01 15:01:37 INFO  SecurityManager:54 - Changing modify acls to: ccc_v1_g_328d8_37658
+2020-07-01 15:01:37 INFO  SecurityManager:54 - Changing view acls groups to: 
+2020-07-01 15:01:37 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2020-07-01 15:01:37 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_328d8_37658); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_328d8_37658); groups with modify permissions: Set()
+2020-07-01 15:01:37 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 34489.
+2020-07-01 15:01:37 INFO  SparkEnv:54 - Registering MapOutputTracker
+2020-07-01 15:01:37 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2020-07-01 15:01:37 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2020-07-01 15:01:37 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2020-07-01 15:01:37 INFO  DiskBlockManager:54 - Created local directory at /tmp/blockmgr-f78fd604-7378-4115-9147-4638ae6fe50d
+2020-07-01 15:01:37 INFO  MemoryStore:54 - MemoryStore started with capacity 2004.6 MB
+2020-07-01 15:01:37 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2020-07-01 15:01:37 INFO  log:192 - Logging initialized @2434ms
+2020-07-01 15:01:37 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2020-07-01 15:01:38 INFO  Server:414 - Started @2523ms
+2020-07-01 15:01:38 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-07-01 15:01:38 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2020-07-01 15:01:38 INFO  AbstractConnector:278 - Started ServerConnector@6b8822dc{HTTP/1.1,[http/1.1]}{0.0.0.0:4042}
+2020-07-01 15:01:38 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4042.
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@21ad6b33{/jobs,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3199968d{/jobs/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5629b4d0{/jobs/job,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@694589e5{/jobs/job/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@149557be{/stages,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f01fec8{/stages/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@73f3609f{/stages/stage,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@8dd1408{/stages/stage/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@60427a14{/stages/pool,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@30039a44{/stages/pool/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6a10413b{/storage,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@a8d7525{/storage/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@796c3cba{/storage/rdd,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@55915869{/storage/rdd/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3de0d279{/environment,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5ca5acbd{/environment/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4434c27f{/executors,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1bb98880{/executors/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@20f1f294{/executors/threadDump,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@51406273{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3385651e{/static,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@73f40770{/,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@bbac7c6{/api,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@428860ba{/jobs/job/kill,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7e45bd32{/stages/stage/kill,null,AVAILABLE,@Spark}
+2020-07-01 15:01:38 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://172.31.22.189:4042
+2020-07-01 15:01:38 INFO  SparkContext:54 - Added file file:/home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py at file:/home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py with timestamp 1593640898417
+2020-07-01 15:01:38 INFO  Utils:54 - Copying /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py to /tmp/spark-059a4b86-257d-4245-9351-54e37ffc4eb8/userFiles-f399c37f-359d-474d-9061-d3b3bb3bee3b/task1.py
+2020-07-01 15:01:38 INFO  Executor:54 - Starting executor ID driver on host localhost
+2020-07-01 15:01:38 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45426.
+2020-07-01 15:01:38 INFO  NettyBlockTransferService:54 - Server created on 172.31.22.189:45426
+2020-07-01 15:01:38 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2020-07-01 15:01:38 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, 172.31.22.189, 45426, None)
+2020-07-01 15:01:38 INFO  BlockManagerMasterEndpoint:54 - Registering block manager 172.31.22.189:45426 with 2004.6 MB RAM, BlockManagerId(driver, 172.31.22.189, 45426, None)
+2020-07-01 15:01:38 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, 172.31.22.189, 45426, None)
+2020-07-01 15:01:38 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, 172.31.22.189, 45426, None)
+2020-07-01 15:01:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3bcca4a3{/metrics/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:39 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 236.5 KB, free 2004.4 MB)
+2020-07-01 15:01:39 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 22.9 KB, free 2004.3 MB)
+2020-07-01 15:01:39 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on 172.31.22.189:45426 (size: 22.9 KB, free: 2004.6 MB)
+2020-07-01 15:01:39 INFO  SparkContext:54 - Created broadcast 0 from textFile at NativeMethodAccessorImpl.java:0
+2020-07-01 15:01:39 INFO  FileInputFormat:249 - Total input paths to process : 1
+2020-07-01 15:01:39 INFO  SparkContext:54 - Starting job: collect at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:21
+2020-07-01 15:01:39 INFO  DAGScheduler:54 - Registering RDD 3 (distinct at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:21)
+2020-07-01 15:01:39 INFO  DAGScheduler:54 - Got job 0 (collect at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:21) with 3 output partitions
+2020-07-01 15:01:39 INFO  DAGScheduler:54 - Final stage: ResultStage 1 (collect at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:21)
+2020-07-01 15:01:39 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 0)
+2020-07-01 15:01:39 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 0)
+2020-07-01 15:01:39 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 0 (PairwiseRDD[3] at distinct at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:21), which has no missing parents
+2020-07-01 15:01:40 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 9.3 KB, free 2004.3 MB)
+2020-07-01 15:01:40 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.1 KB, free 2004.3 MB)
+2020-07-01 15:01:40 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on 172.31.22.189:45426 (size: 6.1 KB, free: 2004.6 MB)
+2020-07-01 15:01:40 INFO  SparkContext:54 - Created broadcast 1 from broadcast at DAGScheduler.scala:1039
+2020-07-01 15:01:40 INFO  DAGScheduler:54 - Submitting 3 missing tasks from ShuffleMapStage 0 (PairwiseRDD[3] at distinct at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:21) (first 15 tasks are for partitions Vector(0, 1, 2))
+2020-07-01 15:01:40 INFO  TaskSchedulerImpl:54 - Adding task set 0.0 with 3 tasks
+2020-07-01 15:01:40 INFO  TaskSetManager:54 - Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 7933 bytes)
+2020-07-01 15:01:40 INFO  TaskSetManager:54 - Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 7933 bytes)
+2020-07-01 15:01:40 INFO  TaskSetManager:54 - Starting task 2.0 in stage 0.0 (TID 2, localhost, executor driver, partition 2, PROCESS_LOCAL, 7933 bytes)
+2020-07-01 15:01:40 INFO  Executor:54 - Running task 2.0 in stage 0.0 (TID 2)
+2020-07-01 15:01:40 INFO  Executor:54 - Running task 1.0 in stage 0.0 (TID 1)
+2020-07-01 15:01:40 INFO  Executor:54 - Running task 0.0 in stage 0.0 (TID 0)
+2020-07-01 15:01:40 INFO  Executor:54 - Fetching file:/home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py with timestamp 1593640898417
+2020-07-01 15:01:40 INFO  Utils:54 - /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py has been previously copied to /tmp/spark-059a4b86-257d-4245-9351-54e37ffc4eb8/userFiles-f399c37f-359d-474d-9061-d3b3bb3bee3b/task1.py
+2020-07-01 15:01:40 INFO  HadoopRDD:54 - Input split: file:/home/ccc_v1_c_b9Go_203599/asn197451_14/asn197452_1/asnlib.0/publicdata/business_second.json:67108864+5939966
+2020-07-01 15:01:40 INFO  HadoopRDD:54 - Input split: file:/home/ccc_v1_c_b9Go_203599/asn197451_14/asn197452_1/asnlib.0/publicdata/business_second.json:33554432+33554432
+2020-07-01 15:01:40 INFO  HadoopRDD:54 - Input split: file:/home/ccc_v1_c_b9Go_203599/asn197451_14/asn197452_1/asnlib.0/publicdata/business_second.json:0+33554432
+2020-07-01 15:01:41 INFO  PythonRunner:54 - Times: total = 1067, boot = 567, init = 76, finish = 424
+2020-07-01 15:01:41 INFO  Executor:54 - Finished task 2.0 in stage 0.0 (TID 2). 1613 bytes result sent to driver
+2020-07-01 15:01:41 INFO  TaskSetManager:54 - Finished task 2.0 in stage 0.0 (TID 2) in 1868 ms on localhost (executor driver) (1/3)
+2020-07-01 15:01:42 INFO  PythonRunner:54 - Times: total = 2234, boot = 555, init = 84, finish = 1595
+2020-07-01 15:01:42 INFO  Executor:54 - Finished task 1.0 in stage 0.0 (TID 1). 1570 bytes result sent to driver
+2020-07-01 15:01:42 INFO  TaskSetManager:54 - Finished task 1.0 in stage 0.0 (TID 1) in 2499 ms on localhost (executor driver) (2/3)
+2020-07-01 15:01:42 INFO  PythonRunner:54 - Times: total = 2323, boot = 531, init = 30, finish = 1762
+2020-07-01 15:01:42 INFO  Executor:54 - Finished task 0.0 in stage 0.0 (TID 0). 1570 bytes result sent to driver
+2020-07-01 15:01:42 INFO  TaskSetManager:54 - Finished task 0.0 in stage 0.0 (TID 0) in 2598 ms on localhost (executor driver) (3/3)
+2020-07-01 15:01:42 INFO  DAGScheduler:54 - ShuffleMapStage 0 (distinct at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:21) finished in 2.681 s
+2020-07-01 15:01:42 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-07-01 15:01:42 INFO  DAGScheduler:54 - running: Set()
+2020-07-01 15:01:42 INFO  DAGScheduler:54 - waiting: Set(ResultStage 1)
+2020-07-01 15:01:42 INFO  DAGScheduler:54 - failed: Set()
+2020-07-01 15:01:42 INFO  DAGScheduler:54 - Submitting ResultStage 1 (PythonRDD[6] at collect at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:21), which has no missing parents
+2020-07-01 15:01:42 INFO  TaskSchedulerImpl:54 - Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2020-07-01 15:01:42 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 6.6 KB, free 2004.3 MB)
+2020-07-01 15:01:42 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 4.2 KB, free 2004.3 MB)
+2020-07-01 15:01:42 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on 172.31.22.189:45426 (size: 4.2 KB, free: 2004.6 MB)
+2020-07-01 15:01:42 INFO  SparkContext:54 - Created broadcast 2 from broadcast at DAGScheduler.scala:1039
+2020-07-01 15:01:42 INFO  DAGScheduler:54 - Submitting 3 missing tasks from ResultStage 1 (PythonRDD[6] at collect at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:21) (first 15 tasks are for partitions Vector(0, 1, 2))
+2020-07-01 15:01:42 INFO  TaskSchedulerImpl:54 - Adding task set 1.0 with 3 tasks
+2020-07-01 15:01:42 INFO  TaskSetManager:54 - Starting task 0.0 in stage 1.0 (TID 3, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2020-07-01 15:01:42 INFO  TaskSetManager:54 - Starting task 1.0 in stage 1.0 (TID 4, localhost, executor driver, partition 1, ANY, 7649 bytes)
+2020-07-01 15:01:42 INFO  TaskSetManager:54 - Starting task 2.0 in stage 1.0 (TID 5, localhost, executor driver, partition 2, ANY, 7649 bytes)
+2020-07-01 15:01:42 INFO  Executor:54 - Running task 0.0 in stage 1.0 (TID 3)
+2020-07-01 15:01:42 INFO  Executor:54 - Running task 1.0 in stage 1.0 (TID 4)
+2020-07-01 15:01:42 INFO  Executor:54 - Running task 2.0 in stage 1.0 (TID 5)
+2020-07-01 15:01:42 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks out of 3 blocks
+2020-07-01 15:01:42 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks out of 3 blocks
+2020-07-01 15:01:42 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 5 ms
+2020-07-01 15:01:42 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 12 ms
+2020-07-01 15:01:42 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks out of 3 blocks
+2020-07-01 15:01:42 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 36 ms
+2020-07-01 15:01:42 INFO  PythonRunner:54 - Times: total = 61, boot = -1371, init = 1431, finish = 1
+2020-07-01 15:01:42 INFO  PythonRunner:54 - Times: total = 67, boot = -226, init = 292, finish = 1
+2020-07-01 15:01:42 INFO  Executor:54 - Finished task 0.0 in stage 1.0 (TID 3). 6247 bytes result sent to driver
+2020-07-01 15:01:42 INFO  Executor:54 - Finished task 2.0 in stage 1.0 (TID 5). 6668 bytes result sent to driver
+2020-07-01 15:01:42 INFO  PythonRunner:54 - Times: total = 49, boot = -164, init = 212, finish = 1
+2020-07-01 15:01:42 INFO  Executor:54 - Finished task 1.0 in stage 1.0 (TID 4). 6707 bytes result sent to driver
+2020-07-01 15:01:42 INFO  TaskSetManager:54 - Finished task 2.0 in stage 1.0 (TID 5) in 126 ms on localhost (executor driver) (1/3)
+2020-07-01 15:01:42 INFO  TaskSetManager:54 - Finished task 0.0 in stage 1.0 (TID 3) in 137 ms on localhost (executor driver) (2/3)
+2020-07-01 15:01:42 INFO  TaskSetManager:54 - Finished task 1.0 in stage 1.0 (TID 4) in 129 ms on localhost (executor driver) (3/3)
+2020-07-01 15:01:42 INFO  TaskSchedulerImpl:54 - Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2020-07-01 15:01:42 INFO  DAGScheduler:54 - ResultStage 1 (collect at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:21) finished in 0.172 s
+2020-07-01 15:01:42 INFO  DAGScheduler:54 - Job 0 finished: collect at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:21, took 2.938260 s
+2020-07-01 15:01:42 INFO  SparkContext:54 - Starting job: collect at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:25
+2020-07-01 15:01:42 INFO  DAGScheduler:54 - Registering RDD 8 (distinct at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:25)
+2020-07-01 15:01:42 INFO  DAGScheduler:54 - Registering RDD 12 (distinct at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:25)
+2020-07-01 15:01:42 INFO  DAGScheduler:54 - Got job 1 (collect at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:25) with 3 output partitions
+2020-07-01 15:01:42 INFO  DAGScheduler:54 - Final stage: ResultStage 4 (collect at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:25)
+2020-07-01 15:01:42 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 3)
+2020-07-01 15:01:42 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 3)
+2020-07-01 15:01:42 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 2 (PairwiseRDD[8] at distinct at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:25), which has no missing parents
+2020-07-01 15:01:42 INFO  MemoryStore:54 - Block broadcast_3 stored as values in memory (estimated size 9.3 KB, free 2004.3 MB)
+2020-07-01 15:01:42 INFO  MemoryStore:54 - Block broadcast_3_piece0 stored as bytes in memory (estimated size 6.1 KB, free 2004.3 MB)
+2020-07-01 15:01:42 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on 172.31.22.189:45426 (size: 6.1 KB, free: 2004.6 MB)
+2020-07-01 15:01:42 INFO  SparkContext:54 - Created broadcast 3 from broadcast at DAGScheduler.scala:1039
+2020-07-01 15:01:42 INFO  DAGScheduler:54 - Submitting 3 missing tasks from ShuffleMapStage 2 (PairwiseRDD[8] at distinct at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:25) (first 15 tasks are for partitions Vector(0, 1, 2))
+2020-07-01 15:01:42 INFO  TaskSchedulerImpl:54 - Adding task set 2.0 with 3 tasks
+2020-07-01 15:01:42 INFO  TaskSetManager:54 - Starting task 0.0 in stage 2.0 (TID 6, localhost, executor driver, partition 0, PROCESS_LOCAL, 7933 bytes)
+2020-07-01 15:01:42 INFO  TaskSetManager:54 - Starting task 1.0 in stage 2.0 (TID 7, localhost, executor driver, partition 1, PROCESS_LOCAL, 7933 bytes)
+2020-07-01 15:01:42 INFO  TaskSetManager:54 - Starting task 2.0 in stage 2.0 (TID 8, localhost, executor driver, partition 2, PROCESS_LOCAL, 7933 bytes)
+2020-07-01 15:01:42 INFO  Executor:54 - Running task 0.0 in stage 2.0 (TID 6)
+2020-07-01 15:01:42 INFO  Executor:54 - Running task 2.0 in stage 2.0 (TID 8)
+2020-07-01 15:01:42 INFO  HadoopRDD:54 - Input split: file:/home/ccc_v1_c_b9Go_203599/asn197451_14/asn197452_1/asnlib.0/publicdata/business_second.json:0+33554432
+2020-07-01 15:01:42 INFO  HadoopRDD:54 - Input split: file:/home/ccc_v1_c_b9Go_203599/asn197451_14/asn197452_1/asnlib.0/publicdata/business_second.json:67108864+5939966
+2020-07-01 15:01:42 INFO  Executor:54 - Running task 1.0 in stage 2.0 (TID 7)
+2020-07-01 15:01:43 INFO  HadoopRDD:54 - Input split: file:/home/ccc_v1_c_b9Go_203599/asn197451_14/asn197452_1/asnlib.0/publicdata/business_second.json:33554432+33554432
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 4
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 20
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 37
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 13
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 6
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 15
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 28
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 19
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 45
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 30
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 42
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 7
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 12
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 48
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 35
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 1
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 22
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 18
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 17
+2020-07-01 15:01:43 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece0 on 172.31.22.189:45426 in memory (size: 6.1 KB, free: 2004.6 MB)
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 3
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 41
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 10
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 32
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 43
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 29
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 31
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 5
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 44
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 47
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 49
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 50
+2020-07-01 15:01:43 INFO  BlockManagerInfo:54 - Removed broadcast_2_piece0 on 172.31.22.189:45426 in memory (size: 4.2 KB, free: 2004.6 MB)
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 8
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 40
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 34
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 36
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 2
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 38
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 26
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 46
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 24
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 11
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 9
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 39
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 25
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 27
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 21
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 33
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 23
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 14
+2020-07-01 15:01:43 INFO  ContextCleaner:54 - Cleaned accumulator 16
+2020-07-01 15:01:43 INFO  PythonRunner:54 - Times: total = 332, boot = -146, init = 225, finish = 253
+2020-07-01 15:01:43 INFO  Executor:54 - Finished task 2.0 in stage 2.0 (TID 8). 1570 bytes result sent to driver
+2020-07-01 15:01:43 INFO  TaskSetManager:54 - Finished task 2.0 in stage 2.0 (TID 8) in 404 ms on localhost (executor driver) (1/3)
+2020-07-01 15:01:44 INFO  PythonRunner:54 - Times: total = 1403, boot = -144, init = 194, finish = 1353
+2020-07-01 15:01:44 INFO  Executor:54 - Finished task 0.0 in stage 2.0 (TID 6). 1570 bytes result sent to driver
+2020-07-01 15:01:44 INFO  TaskSetManager:54 - Finished task 0.0 in stage 2.0 (TID 6) in 1452 ms on localhost (executor driver) (2/3)
+2020-07-01 15:01:44 INFO  PythonRunner:54 - Times: total = 1457, boot = -163, init = 212, finish = 1408
+2020-07-01 15:01:44 INFO  Executor:54 - Finished task 1.0 in stage 2.0 (TID 7). 1570 bytes result sent to driver
+2020-07-01 15:01:44 INFO  TaskSetManager:54 - Finished task 1.0 in stage 2.0 (TID 7) in 1519 ms on localhost (executor driver) (3/3)
+2020-07-01 15:01:44 INFO  TaskSchedulerImpl:54 - Removed TaskSet 2.0, whose tasks have all completed, from pool 
+2020-07-01 15:01:44 INFO  DAGScheduler:54 - ShuffleMapStage 2 (distinct at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:25) finished in 1.537 s
+2020-07-01 15:01:44 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-07-01 15:01:44 INFO  DAGScheduler:54 - running: Set()
+2020-07-01 15:01:44 INFO  DAGScheduler:54 - waiting: Set(ShuffleMapStage 3, ResultStage 4)
+2020-07-01 15:01:44 INFO  DAGScheduler:54 - failed: Set()
+2020-07-01 15:01:44 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 3 (PairwiseRDD[12] at distinct at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:25), which has no missing parents
+2020-07-01 15:01:44 INFO  MemoryStore:54 - Block broadcast_4 stored as values in memory (estimated size 9.8 KB, free 2004.3 MB)
+2020-07-01 15:01:44 INFO  MemoryStore:54 - Block broadcast_4_piece0 stored as bytes in memory (estimated size 6.6 KB, free 2004.3 MB)
+2020-07-01 15:01:44 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on 172.31.22.189:45426 (size: 6.6 KB, free: 2004.6 MB)
+2020-07-01 15:01:44 INFO  SparkContext:54 - Created broadcast 4 from broadcast at DAGScheduler.scala:1039
+2020-07-01 15:01:44 INFO  DAGScheduler:54 - Submitting 3 missing tasks from ShuffleMapStage 3 (PairwiseRDD[12] at distinct at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:25) (first 15 tasks are for partitions Vector(0, 1, 2))
+2020-07-01 15:01:44 INFO  TaskSchedulerImpl:54 - Adding task set 3.0 with 3 tasks
+2020-07-01 15:01:44 INFO  TaskSetManager:54 - Starting task 0.0 in stage 3.0 (TID 9, localhost, executor driver, partition 0, ANY, 7638 bytes)
+2020-07-01 15:01:44 INFO  TaskSetManager:54 - Starting task 1.0 in stage 3.0 (TID 10, localhost, executor driver, partition 1, ANY, 7638 bytes)
+2020-07-01 15:01:44 INFO  TaskSetManager:54 - Starting task 2.0 in stage 3.0 (TID 11, localhost, executor driver, partition 2, ANY, 7638 bytes)
+2020-07-01 15:01:44 INFO  Executor:54 - Running task 2.0 in stage 3.0 (TID 11)
+2020-07-01 15:01:44 INFO  Executor:54 - Running task 0.0 in stage 3.0 (TID 9)
+2020-07-01 15:01:44 INFO  Executor:54 - Running task 1.0 in stage 3.0 (TID 10)
+2020-07-01 15:01:44 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks out of 3 blocks
+2020-07-01 15:01:44 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks out of 3 blocks
+2020-07-01 15:01:44 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-07-01 15:01:44 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-07-01 15:01:44 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks out of 3 blocks
+2020-07-01 15:01:44 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2020-07-01 15:01:44 INFO  PythonRunner:54 - Times: total = 58, boot = -55, init = 108, finish = 5
+2020-07-01 15:01:44 INFO  Executor:54 - Finished task 1.0 in stage 3.0 (TID 10). 1742 bytes result sent to driver
+2020-07-01 15:01:44 INFO  TaskSetManager:54 - Finished task 1.0 in stage 3.0 (TID 10) in 98 ms on localhost (executor driver) (1/3)
+2020-07-01 15:01:44 INFO  PythonRunner:54 - Times: total = 43, boot = -1178, init = 1212, finish = 9
+2020-07-01 15:01:44 INFO  PythonRunner:54 - Times: total = 35, boot = -134, init = 165, finish = 4
+2020-07-01 15:01:44 INFO  Executor:54 - Finished task 2.0 in stage 3.0 (TID 11). 1742 bytes result sent to driver
+2020-07-01 15:01:44 INFO  TaskSetManager:54 - Finished task 2.0 in stage 3.0 (TID 11) in 134 ms on localhost (executor driver) (2/3)
+2020-07-01 15:01:44 INFO  Executor:54 - Finished task 0.0 in stage 3.0 (TID 9). 1742 bytes result sent to driver
+2020-07-01 15:01:44 INFO  TaskSetManager:54 - Finished task 0.0 in stage 3.0 (TID 9) in 137 ms on localhost (executor driver) (3/3)
+2020-07-01 15:01:44 INFO  TaskSchedulerImpl:54 - Removed TaskSet 3.0, whose tasks have all completed, from pool 
+2020-07-01 15:01:44 INFO  DAGScheduler:54 - ShuffleMapStage 3 (distinct at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:25) finished in 0.162 s
+2020-07-01 15:01:44 INFO  DAGScheduler:54 - looking for newly runnable stages
+2020-07-01 15:01:44 INFO  DAGScheduler:54 - running: Set()
+2020-07-01 15:01:44 INFO  DAGScheduler:54 - waiting: Set(ResultStage 4)
+2020-07-01 15:01:44 INFO  DAGScheduler:54 - failed: Set()
+2020-07-01 15:01:44 INFO  DAGScheduler:54 - Submitting ResultStage 4 (PythonRDD[15] at collect at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:25), which has no missing parents
+2020-07-01 15:01:44 INFO  MemoryStore:54 - Block broadcast_5 stored as values in memory (estimated size 6.6 KB, free 2004.3 MB)
+2020-07-01 15:01:44 INFO  MemoryStore:54 - Block broadcast_5_piece0 stored as bytes in memory (estimated size 4.2 KB, free 2004.3 MB)
+2020-07-01 15:01:44 INFO  BlockManagerInfo:54 - Added broadcast_5_piece0 in memory on 172.31.22.189:45426 (size: 4.2 KB, free: 2004.6 MB)
+2020-07-01 15:01:44 INFO  SparkContext:54 - Created broadcast 5 from broadcast at DAGScheduler.scala:1039
+2020-07-01 15:01:44 INFO  DAGScheduler:54 - Submitting 3 missing tasks from ResultStage 4 (PythonRDD[15] at collect at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:25) (first 15 tasks are for partitions Vector(0, 1, 2))
+2020-07-01 15:01:44 INFO  TaskSchedulerImpl:54 - Adding task set 4.0 with 3 tasks
+2020-07-01 15:01:44 INFO  TaskSetManager:54 - Starting task 0.0 in stage 4.0 (TID 12, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2020-07-01 15:01:44 INFO  TaskSetManager:54 - Starting task 1.0 in stage 4.0 (TID 13, localhost, executor driver, partition 1, ANY, 7649 bytes)
+2020-07-01 15:01:44 INFO  TaskSetManager:54 - Starting task 2.0 in stage 4.0 (TID 14, localhost, executor driver, partition 2, ANY, 7649 bytes)
+2020-07-01 15:01:44 INFO  Executor:54 - Running task 1.0 in stage 4.0 (TID 13)
+2020-07-01 15:01:44 INFO  Executor:54 - Running task 0.0 in stage 4.0 (TID 12)
+2020-07-01 15:01:44 INFO  Executor:54 - Running task 2.0 in stage 4.0 (TID 14)
+2020-07-01 15:01:44 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks out of 3 blocks
+2020-07-01 15:01:44 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-07-01 15:01:44 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks out of 3 blocks
+2020-07-01 15:01:44 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2020-07-01 15:01:44 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks out of 3 blocks
+2020-07-01 15:01:44 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2020-07-01 15:01:44 INFO  PythonRunner:54 - Times: total = 57, boot = -77, init = 133, finish = 1
+2020-07-01 15:01:44 INFO  Executor:54 - Finished task 1.0 in stage 4.0 (TID 13). 3101 bytes result sent to driver
+2020-07-01 15:01:44 INFO  PythonRunner:54 - Times: total = 61, boot = -93, init = 153, finish = 1
+2020-07-01 15:01:44 INFO  Executor:54 - Finished task 0.0 in stage 4.0 (TID 12). 3190 bytes result sent to driver
+2020-07-01 15:01:44 INFO  PythonRunner:54 - Times: total = 52, boot = -114, init = 165, finish = 1
+2020-07-01 15:01:44 INFO  Executor:54 - Finished task 2.0 in stage 4.0 (TID 14). 3115 bytes result sent to driver
+2020-07-01 15:01:44 INFO  TaskSetManager:54 - Finished task 1.0 in stage 4.0 (TID 13) in 91 ms on localhost (executor driver) (1/3)
+2020-07-01 15:01:44 INFO  TaskSetManager:54 - Finished task 2.0 in stage 4.0 (TID 14) in 90 ms on localhost (executor driver) (2/3)
+2020-07-01 15:01:44 INFO  TaskSetManager:54 - Finished task 0.0 in stage 4.0 (TID 12) in 93 ms on localhost (executor driver) (3/3)
+2020-07-01 15:01:44 INFO  TaskSchedulerImpl:54 - Removed TaskSet 4.0, whose tasks have all completed, from pool 
+2020-07-01 15:01:44 INFO  DAGScheduler:54 - ResultStage 4 (collect at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:25) finished in 0.105 s
+2020-07-01 15:01:44 INFO  DAGScheduler:54 - Job 1 finished: collect at /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task1.py:25, took 1.819903 s
+array_bit:  1430
+400
+size of ans: 94296
+[(-56, -5501, 5801), (-31, -6792, 10007)]
+Duration:  11.122857570648193
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 93
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned shuffle 2
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 79
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 98
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 122
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 124
+2020-07-01 15:01:48 INFO  BlockManagerInfo:54 - Removed broadcast_5_piece0 on 172.31.22.189:45426 in memory (size: 4.2 KB, free: 2004.6 MB)
+2020-07-01 15:01:48 INFO  SparkContext:54 - Invoking stop() from shutdown hook
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 66
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 83
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 57
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 75
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 78
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 94
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 64
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 102
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 72
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 109
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 58
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 54
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 56
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 68
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 88
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 115
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 71
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 101
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 90
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 69
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 100
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 95
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 53
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 63
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 73
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 108
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 110
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 113
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 125
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 123
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 114
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 99
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 106
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 70
+2020-07-01 15:01:48 INFO  AbstractConnector:318 - Stopped Spark@6b8822dc{HTTP/1.1,[http/1.1]}{0.0.0.0:4042}
+2020-07-01 15:01:48 INFO  SparkUI:54 - Stopped Spark web UI at http://172.31.22.189:4042
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 76
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 89
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 61
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 111
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 60
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 107
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 67
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 80
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 105
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned accumulator 119
+2020-07-01 15:01:48 INFO  ContextCleaner:54 - Cleaned shuffle 1
+2020-07-01 15:01:48 INFO  MapOutputTrackerMasterEndpoint:54 - MapOutputTrackerMasterEndpoint stopped!
+2020-07-01 15:01:48 INFO  MemoryStore:54 - MemoryStore cleared
+2020-07-01 15:01:48 INFO  BlockManager:54 - BlockManager stopped
+2020-07-01 15:01:48 INFO  BlockManagerMaster:54 - BlockManagerMaster stopped
+2020-07-01 15:01:48 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 - OutputCommitCoordinator stopped!
+2020-07-01 15:01:48 INFO  SparkContext:54 - Successfully stopped SparkContext
+2020-07-01 15:01:48 INFO  ShutdownHookManager:54 - Shutdown hook called
+2020-07-01 15:01:48 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-5404ae38-5fcb-47f6-9065-2b8c2178a401
+2020-07-01 15:01:48 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-059a4b86-257d-4245-9351-54e37ffc4eb8
+2020-07-01 15:01:48 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-059a4b86-257d-4245-9351-54e37ffc4eb8/pyspark-81e5f936-7487-4e83-8b35-8707c0971783
+2020-07-01 15:01:50 WARN  Utils:66 - Your hostname, ip-172-31-22-189 resolves to a loopback address: 127.0.0.1; using 172.31.22.189 instead (on interface ens5)
+2020-07-01 15:01:50 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2020-07-01 15:01:50 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Exception in thread "main" java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at StreamSimulation$.main(StreamSimulation.scala:34)
+	at StreamSimulation.main(StreamSimulation.scala)
+2020-07-01 15:01:51 INFO  SparkContext:54 - Running Spark version 2.3.0
+2020-07-01 15:01:51 INFO  SparkContext:54 - Submitted application: task2.py
+2020-07-01 15:01:51 INFO  SecurityManager:54 - Changing view acls to: ccc_v1_g_328d8_37658
+2020-07-01 15:01:51 INFO  SecurityManager:54 - Changing modify acls to: ccc_v1_g_328d8_37658
+2020-07-01 15:01:51 INFO  SecurityManager:54 - Changing view acls groups to: 
+2020-07-01 15:01:51 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2020-07-01 15:01:51 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_328d8_37658); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_328d8_37658); groups with modify permissions: Set()
+2020-07-01 15:01:51 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 43116.
+2020-07-01 15:01:51 INFO  SparkEnv:54 - Registering MapOutputTracker
+2020-07-01 15:01:51 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2020-07-01 15:01:51 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2020-07-01 15:01:51 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2020-07-01 15:01:51 INFO  DiskBlockManager:54 - Created local directory at /tmp/blockmgr-bd24fb9d-df38-49f9-af43-a6857d55c487
+2020-07-01 15:01:51 INFO  MemoryStore:54 - MemoryStore started with capacity 2004.6 MB
+2020-07-01 15:01:51 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2020-07-01 15:01:51 INFO  log:192 - Logging initialized @2874ms
+2020-07-01 15:01:52 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2020-07-01 15:01:52 INFO  Server:414 - Started @3054ms
+2020-07-01 15:01:52 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-07-01 15:01:52 INFO  AbstractConnector:278 - Started ServerConnector@5559dde9{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+2020-07-01 15:01:52 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4041.
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5b428469{/jobs,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c140f5{/jobs/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56baa1dd{/jobs/job,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@55049036{/jobs/job/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5bccb48b{/stages,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@58fb4266{/stages/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@582a94b2{/stages/stage,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@15622318{/stages/stage/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@19e1aa02{/stages/pool,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@413290ad{/stages/pool/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@13378c25{/storage,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@174907b8{/storage/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3ec1ee9{/storage/rdd,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@560e41c1{/storage/rdd/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7977a981{/environment,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@26dc05d0{/environment/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@45244cb4{/executors,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@61801d98{/executors/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@25ff8b88{/executors/threadDump,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@63cbf862{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@46d4943{/static,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7b375187{/,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1ccf562a{/api,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7b33256d{/jobs/job/kill,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6dfff2d8{/stages/stage/kill,null,AVAILABLE,@Spark}
+2020-07-01 15:01:52 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://172.31.22.189:4041
+2020-07-01 15:01:52 INFO  SparkContext:54 - Added file file:/home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task2.py at file:/home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task2.py with timestamp 1593640912534
+2020-07-01 15:01:52 INFO  Utils:54 - Copying /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task2.py to /tmp/spark-eebe750c-9cb7-4e90-85cd-a149b3f4c415/userFiles-5279cf88-940c-4f88-8494-3d8b79a3f446/task2.py
+2020-07-01 15:01:52 INFO  Executor:54 - Starting executor ID driver on host localhost
+2020-07-01 15:01:52 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 39133.
+2020-07-01 15:01:52 INFO  NettyBlockTransferService:54 - Server created on 172.31.22.189:39133
+2020-07-01 15:01:52 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2020-07-01 15:01:52 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, 172.31.22.189, 39133, None)
+2020-07-01 15:01:52 INFO  BlockManagerMasterEndpoint:54 - Registering block manager 172.31.22.189:39133 with 2004.6 MB RAM, BlockManagerId(driver, 172.31.22.189, 39133, None)
+2020-07-01 15:01:52 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, 172.31.22.189, 39133, None)
+2020-07-01 15:01:52 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, 172.31.22.189, 39133, None)
+2020-07-01 15:01:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@53abda50{/metrics/json,null,AVAILABLE,@Spark}
+2020-07-01 15:06:41 ERROR ReceiverTracker:70 - Deregistered receiver for stream 0: Restarting receiver with delay 2000ms: Socket data stream had no more data
+2020-07-01 15:06:43 ERROR ReceiverTracker:70 - Deregistered receiver for stream 0: Restarting receiver with delay 2000ms: Error connecting to localhost:9999 - java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at org.apache.spark.streaming.dstream.SocketReceiver.onStart(SocketInputDStream.scala:61)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor.startReceiver(ReceiverSupervisor.scala:149)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply$mcV$sp(ReceiverSupervisor.scala:198)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply(ReceiverSupervisor.scala:189)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply(ReceiverSupervisor.scala:189)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-01 15:06:45 ERROR ReceiverTracker:70 - Deregistered receiver for stream 0: Restarting receiver with delay 2000ms: Error connecting to localhost:9999 - java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at org.apache.spark.streaming.dstream.SocketReceiver.onStart(SocketInputDStream.scala:61)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor.startReceiver(ReceiverSupervisor.scala:149)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply$mcV$sp(ReceiverSupervisor.scala:198)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply(ReceiverSupervisor.scala:189)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply(ReceiverSupervisor.scala:189)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-01 15:06:47 ERROR ReceiverTracker:70 - Deregistered receiver for stream 0: Restarting receiver with delay 2000ms: Error connecting to localhost:9999 - java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at org.apache.spark.streaming.dstream.SocketReceiver.onStart(SocketInputDStream.scala:61)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor.startReceiver(ReceiverSupervisor.scala:149)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply$mcV$sp(ReceiverSupervisor.scala:198)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply(ReceiverSupervisor.scala:189)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply(ReceiverSupervisor.scala:189)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Exception in thread "receiver-supervisor-future-3" java.lang.Error: java.lang.InterruptedException: sleep interrupted
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply$mcV$sp(ReceiverSupervisor.scala:196)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply(ReceiverSupervisor.scala:189)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply(ReceiverSupervisor.scala:189)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2020-07-01 15:06:50 WARN  Utils:66 - Your hostname, ip-172-31-22-189 resolves to a loopback address: 127.0.0.1; using 172.31.22.189 instead (on interface ens5)
+2020-07-01 15:06:50 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2020-07-01 15:06:51 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-07-01 15:06:51 INFO  SparkContext:54 - Running Spark version 2.3.0
+2020-07-01 15:06:51 INFO  SparkContext:54 - Submitted application: task3.py
+2020-07-01 15:06:51 INFO  SecurityManager:54 - Changing view acls to: ccc_v1_g_328d8_37658
+2020-07-01 15:06:51 INFO  SecurityManager:54 - Changing modify acls to: ccc_v1_g_328d8_37658
+2020-07-01 15:06:51 INFO  SecurityManager:54 - Changing view acls groups to: 
+2020-07-01 15:06:51 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2020-07-01 15:06:51 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_328d8_37658); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_328d8_37658); groups with modify permissions: Set()
+2020-07-01 15:06:52 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 41616.
+2020-07-01 15:06:52 INFO  SparkEnv:54 - Registering MapOutputTracker
+2020-07-01 15:06:52 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2020-07-01 15:06:52 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2020-07-01 15:06:52 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2020-07-01 15:06:52 INFO  DiskBlockManager:54 - Created local directory at /tmp/blockmgr-cfa39615-b147-4559-b2eb-ca3bb2c3bbe6
+2020-07-01 15:06:52 INFO  MemoryStore:54 - MemoryStore started with capacity 2004.6 MB
+2020-07-01 15:06:52 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2020-07-01 15:06:52 INFO  log:192 - Logging initialized @2149ms
+2020-07-01 15:06:52 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2020-07-01 15:06:52 INFO  Server:414 - Started @2217ms
+2020-07-01 15:06:52 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-07-01 15:06:52 INFO  AbstractConnector:278 - Started ServerConnector@2d7fe051{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+2020-07-01 15:06:52 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4041.
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@696ae54d{/jobs,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6127c886{/jobs/json,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@53009923{/jobs/job,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4b2f9c5e{/jobs/job/json,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@14131e45{/stages,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@438d4465{/stages/json,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@15fa49fb{/stages/stage,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@76aee91{/stages/stage/json,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4098da16{/stages/pool,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65eedb39{/stages/pool/json,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@228e6150{/storage,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@72400df6{/storage/json,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@740e21c2{/storage/rdd,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@67aa0b69{/storage/rdd/json,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@36ff722d{/environment,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@44a2e6b9{/environment/json,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@41a7dfde{/executors,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@76e165c0{/executors/json,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b420f2b{/executors/threadDump,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6886b1d4{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@17a0ca35{/static,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@194d39c4{/,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d807c2{/api,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@47fa1c17{/jobs/job/kill,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2ea5b7a0{/stages/stage/kill,null,AVAILABLE,@Spark}
+2020-07-01 15:06:52 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://172.31.22.189:4041
+2020-07-01 15:06:52 INFO  SparkContext:54 - Added file file:/home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task3.py at file:/home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task3.py with timestamp 1593641212618
+2020-07-01 15:06:52 INFO  Utils:54 - Copying /home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/task3.py to /tmp/spark-4866ae93-e074-42a4-ac5b-e9f65ba94273/userFiles-aeaf7aa2-a448-49ec-ac85-ad5b454bfe57/task3.py
+2020-07-01 15:06:52 INFO  Executor:54 - Starting executor ID driver on host localhost
+2020-07-01 15:06:52 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 36809.
+2020-07-01 15:06:52 INFO  NettyBlockTransferService:54 - Server created on 172.31.22.189:36809
+2020-07-01 15:06:52 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2020-07-01 15:06:52 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, 172.31.22.189, 36809, None)
+2020-07-01 15:06:52 INFO  BlockManagerMasterEndpoint:54 - Registering block manager 172.31.22.189:36809 with 2004.6 MB RAM, BlockManagerId(driver, 172.31.22.189, 36809, None)
+2020-07-01 15:06:52 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, 172.31.22.189, 36809, None)
+2020-07-01 15:06:52 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, 172.31.22.189, 36809, None)
+2020-07-01 15:06:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2d8148cf{/metrics/json,null,AVAILABLE,@Spark}
+2020-07-01 15:11:51 WARN  Utils:66 - Your hostname, ip-172-31-22-189 resolves to a loopback address: 127.0.0.1; using 172.31.22.189 instead (on interface ens5)
+2020-07-01 15:11:51 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2020-07-01 15:11:51 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-07-01 15:11:51 INFO  SparkContext:54 - Running Spark version 2.3.0
+2020-07-01 15:11:51 INFO  SparkContext:54 - Submitted application: scala
+2020-07-01 15:11:51 INFO  SecurityManager:54 - Changing view acls to: ccc_v1_g_328d8_37658
+2020-07-01 15:11:51 INFO  SecurityManager:54 - Changing modify acls to: ccc_v1_g_328d8_37658
+2020-07-01 15:11:51 INFO  SecurityManager:54 - Changing view acls groups to: 
+2020-07-01 15:11:51 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2020-07-01 15:11:51 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_328d8_37658); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_328d8_37658); groups with modify permissions: Set()
+2020-07-01 15:11:52 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 43805.
+2020-07-01 15:11:52 INFO  SparkEnv:54 - Registering MapOutputTracker
+2020-07-01 15:11:52 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2020-07-01 15:11:52 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2020-07-01 15:11:52 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2020-07-01 15:11:52 INFO  DiskBlockManager:54 - Created local directory at /tmp/blockmgr-a0def997-1316-4d26-bfdd-0ed2b1a30b81
+2020-07-01 15:11:52 INFO  MemoryStore:54 - MemoryStore started with capacity 2004.6 MB
+2020-07-01 15:11:52 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2020-07-01 15:11:52 INFO  log:192 - Logging initialized @1569ms
+2020-07-01 15:11:52 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2020-07-01 15:11:52 INFO  Server:414 - Started @1641ms
+2020-07-01 15:11:52 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-07-01 15:11:52 INFO  AbstractConnector:278 - Started ServerConnector@5d8445d7{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+2020-07-01 15:11:52 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4041.
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7544a1e4{/jobs,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@210386e0{/jobs/json,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3d4d3fe7{/jobs/job,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@51684e4a{/jobs/job/json,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6ce1f601{/stages,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@38875e7d{/stages/json,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1e886a5b{/stages/stage,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6c451c9c{/stages/stage/json,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@31c269fd{/stages/pool,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@372b0d86{/stages/pool/json,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@47747fb9{/storage,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3113a37{/storage/json,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@213e3629{/storage/rdd,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4e9658b5{/storage/rdd/json,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2a7b6f69{/environment,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@20312893{/environment/json,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@70eecdc2{/executors,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@c41709a{/executors/json,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7db0565c{/executors/threadDump,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54ec8cc9{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@52eacb4b{/static,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d9d1b69{/,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@52c8295b{/api,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@41c07648{/jobs/job/kill,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1fe8d51b{/stages/stage/kill,null,AVAILABLE,@Spark}
+2020-07-01 15:11:52 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://172.31.22.189:4041
+2020-07-01 15:11:52 INFO  SparkContext:54 - Added JAR file:/home/ccc_v1_g_328d8_37658/asn197451_14/asn197452_1/791500/128/work/hw5.jar at spark://172.31.22.189:43805/jars/hw5.jar with timestamp 1593641512368
+2020-07-01 15:11:52 INFO  Executor:54 - Starting executor ID driver on host localhost
+2020-07-01 15:11:52 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 41005.
+2020-07-01 15:11:52 INFO  NettyBlockTransferService:54 - Server created on 172.31.22.189:41005
+2020-07-01 15:11:52 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2020-07-01 15:11:52 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, 172.31.22.189, 41005, None)
+2020-07-01 15:11:52 INFO  BlockManagerMasterEndpoint:54 - Registering block manager 172.31.22.189:41005 with 2004.6 MB RAM, BlockManagerId(driver, 172.31.22.189, 41005, None)
+2020-07-01 15:11:52 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, 172.31.22.189, 41005, None)
+2020-07-01 15:11:52 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, 172.31.22.189, 41005, None)
+2020-07-01 15:11:52 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6569dded{/metrics/json,null,AVAILABLE,@Spark}
+Vector(((5787,9988),804824051), ((-1206,3622),24670986))
+count: 410
+count of array bit: 1478
+size of output: 94296
+Duration: 5.222
+Traceback (most recent call last):
+  File "/home/ccc_v1_c_b9Go_203599/asn197451_14/asn197452_1/asnlib.0/grade/score_scala.py", line 4, in <module>
+    score_s = float(sys.argv[2])
+ValueError: could not convert string to float: 'wrong'
